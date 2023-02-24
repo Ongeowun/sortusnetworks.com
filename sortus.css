@@ -225,7 +225,13 @@ h3 {
             order: -1;
 }
       }
+      .title-2{
+        width: 3.8em;
+        margin-top: auto;
+      }
+.sortus-title-2 {
 
+}
 /*
 #backgroundimage {
   background-image: url(technology-2.jpeg);
