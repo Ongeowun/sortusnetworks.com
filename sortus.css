@@ -252,7 +252,7 @@ h3 {
       }
       .second-div {
         margin-top: 8em;
-        margin-left: 5em;
+        margin-left: 4.5em;
       }
       .container-sortus {
         margin: -5em 3.5em;
@@ -301,6 +301,12 @@ h3 {
         background-color: #1C4582;
         color: whitesmoke;
         z-index: 2;
+      }
+
+      .sortus-title-2 {
+        position: relative;
+        margin: 7em 4.5em;
+        width: 4.3em;
       }
       
 /*
