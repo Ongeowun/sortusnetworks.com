@@ -281,6 +281,7 @@ h3 {
         font-weight: bolder;
         display: flex;
         text-decoration: none;
+        z-index: 2;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
       .sortus-data-reselling {
@@ -299,7 +300,7 @@ h3 {
       .sortus-data-reselling:focus .sortus-webDevelopment:focus .sortus-installation:focus {
         background-color: #1C4582;
         color: whitesmoke;
-        z-index: 1;
+        z-index: 2;
       }
       
 /*
