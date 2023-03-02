@@ -1,4 +1,4 @@
-const topNavigationBar = document.getElementById("top-navigation")
+/*const topNavigationBar = document.getElementById("top-navigation")
 const aboutUs = document.getElementById("about")
 const notes = document.getElementById("notes")
 const vision = document.getElementById("sortus-vision")
@@ -56,7 +56,7 @@ pay.textContent = `Pay for your services`
     } else {
         topNavigation.className = "top-navigation"
     }
-})*/
+})
 //image slider//
 let slideIndex = 0
 //image = ["sortus images.jpeg","technology.jpg","african-image.jpeg","african-technology.jpeg","technology-2.jpeg"]
@@ -74,4 +74,4 @@ function imagesInput(){
   images[slideIndex - 1].style.display = "block";
         setTimeout(imagesInput, 4000); // Change image every 4 seconds
 }
-
+*/
