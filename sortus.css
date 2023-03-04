@@ -60,6 +60,7 @@ nav li {
       nav li {
        line-height: .55em; 
   }
+      
       nav ul {
         flex-direction: column;
         padding: 0 auto;
@@ -192,7 +193,7 @@ h3 {
 }
 @media (max-width: 350px) {
      main{
-    width: 320px;
+    width: 300px;
   }
   .image-cover {
     width: 100%;
@@ -207,23 +208,25 @@ h3 {
       .landing-title, h3 {
         font-size: .45em;
         justify-content: space-between;
-        margin: auto;
       }
+      .landing-title{
+        margin-top: -30em;
+       }
+       .sortus-title {
+        margin-top: .45em;
+       }
       div {
         width: 3em;
       }
       .image{
-        width: 25em;
-        height: 15em;
-        margin-top: 2em;
-        align-self: center;
-        margin-left: 1.5em;
+display: none;
       }
       .about-sortus {
         color: #1C4582;
         font-size: .45em;
         align-items: center;
-        margin:auto;
+        margin: auto;
+        margin-top: -5em;
         width: 30em;
 }
          h3{
@@ -241,13 +244,7 @@ h3 {
           margin-bottom: 6em;
           order: -1;
         }
-        .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
-          width: 5em;
-          height: 8em;
-          margin: .5em;
-          z-index: -1;
-        }
-}
+
       .title-2{
         width: 8em;
       }
@@ -296,6 +293,12 @@ h3 {
         position: center;
         margin: auto 42em -17em;
       }
+      .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
+        width: 8em;
+        height: 12em;
+        margin: 4em;
+        justify-content: center;
+      }
       .sortus-data-reselling:hover .sortus-webDevelopment:hover .sortus-installation:hover
       .sortus-data-reselling:focus .sortus-webDevelopment:focus .sortus-installation:focus {
         background-color: #1C4582;
@@ -329,20 +332,45 @@ h3 {
         display: flex;
         z-index: 1;
       }
-      .reveal{
-        position: relative;
-        transform: translateY(150px);
-        opacity: 0;
-        transition: 2s all ease;
-      }
-      
-      .reveal.active{
-        transform: translateY(0);
-        opacity: 1;
-      }
+    }
+    .reveal{
+      position: relative;
+      transform: translateY(150px);
+      opacity: 0;
+      transition: 2s all ease;
+    }
+    
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
 
-     
-      
+    .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
+      width: 10em;
+      height: 12em;
+      margin: 1em;
+      display: flex;
+      justify-content: space-between;
+      z-index: -1;
+    }
+    .sortus-ocean-image {
+      width: 79%;
+      margin-top: -15em;
+      margin-left: 4.5em;
+      height: 15em;
+      display: flex;
+      position: relative;
+      z-index: -9;
+    }
+    .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
+      color: #1C4582;
+      font-size: .65em;
+      position: absolute;
+      font-weight: bolder;
+      display: flex;
+      text-decoration: none;
+      z-index: 2;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 /*
 #backgroundimage {
   background-image: url(technology-2.jpeg);
