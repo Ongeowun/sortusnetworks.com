@@ -334,17 +334,7 @@ display: none;
       }
     }
     /*End of media querry 2*/
-    .reveal{
-      position: relative;
-      transform: translateY(150px);
-      opacity: 0;
-      transition: 2s all ease;
-    }
-    
-    .reveal.active{
-      transform: translateY(0);
-      opacity: 1;
-    }
+
     .second-div {
       margin-top: 8em;
       width: 3.7em;
@@ -368,6 +358,9 @@ display: none;
     .sortus-image-3 {
       margin-left: 24em;
     }
+    .sortus-statement {
+      margin: 8em;
+    }
     .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
       color: #1C4582;
       font-size: .65em;
@@ -375,7 +368,6 @@ display: none;
       font-weight: bolder;
       display: flex;
       text-decoration: none;
-      z-index: -1;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .sortus-data-reselling {
@@ -399,10 +391,34 @@ display: none;
       z-index: -9;
     }
     .sortus-title-2 {
-      margin: 6.5em;
+      margin: 12em;
       width: 4.4em;
       margin-left: 4em;
     }
+    .reveal{
+      position: relative;
+      transform: translateY(150px);
+      opacity: 0;
+      transition: 5s all ease;
+    }
+    
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .active.fade-bottom {
+      animation: fade-bottom 1s ease-in;
+    }
+      @keyframes fade-bottom {
+        0% {
+          transform: translateY(50px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
 /*#backgroundimage {
   background-image: url(technology-2.jpeg);
   background-size: cover;
