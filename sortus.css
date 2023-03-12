@@ -391,7 +391,7 @@ display: none;
     }
     .sortus-title-2 {
       margin: 12em;
-      width: 4.4em;
+      width: 6.8em;
       margin-left: 4em;
     }
     .reveal{
@@ -418,6 +418,43 @@ display: none;
           opacity: 1;
         }
       }
+
+      .sortus-works {
+        color: #1C4582;
+        font-size: .45em;
+        text-align: left;
+        margin-right: 55em;
+        margin: 9em;
+        margin-top: -25em;
+        width: 15em;
+        display: block;
+        justify-content: space-between;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .sortus-works-sentence-2 {
+        color: #1C4582;
+        font-size: .45em;
+        text-align: left;
+        margin-right: 55em;
+        margin: 36em;
+        margin-top: -24em;
+        width: 15em;
+        display: block;
+        justify-content: space-between;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .sortus-works-sentence-3 {
+        color: #1C4582;
+        font-size: .45em;
+        text-align: left;
+        margin-right: 55em;
+        margin: 60em;
+        margin-top: -51.5em;
+        width: 15em;
+        display: block;
+        justify-content: space-between;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helv
+      }
       footer{
         width: auto;
         background-color: #69be94;
@@ -427,13 +464,15 @@ display: none;
         padding: 0;
         display: flex;
         font-size: .65em;
+        margin-top: -35em;
+        margin-bottom: -50em;
       }
       h6 {
         color: #1C4582;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: .85em;
+        font-size: .75em;
         font-weight: bolder;
-        margin: 2em;
+        margin:3em;
       }
       .sortus-chat, .email-link, .support, .support-numbers {
         text-decoration: none;
@@ -464,9 +503,9 @@ display: none;
         margin-left: -25em;
       }
       .sortus-footer {
-        position: relative;
+        position: absolute;
         display: flex;
-        margin-right: 50em;
+        margin-left: 27.5em;
       }
       p{
         color: #1C4582;
@@ -475,7 +514,22 @@ display: none;
         font-weight: bolder;
         display: flex;
       }
-
+      .sortus-footer-note {
+        position: relative;
+        margin: 6em;
+      }
+      .sortus-footer-note-2 {
+        position: relative;
+        margin: 8em;
+        margin-left: -10em;
+      }
+      .footer-image {
+        mix-blend-mode: multiply;
+        position: absolute;
+        width: 8em;
+        height: 7em;
+        margin-left: 15em;
+      }
 /*#backgroundimage {
   background-image: url(technology-2.jpeg);
   background-size: cover;
