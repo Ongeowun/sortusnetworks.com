@@ -245,6 +245,7 @@ display: none;
 
       .title-2{
         width: 8em;
+        z-index: -1;
       }
       .second-div {
         margin-top: 8em;
@@ -458,7 +459,7 @@ display: none;
       footer{
         width: auto;
         background-color: #69be94;
-        height: 10em;
+        height: 15em;
         position: relative;
         margin: 0;
         padding: 0;
