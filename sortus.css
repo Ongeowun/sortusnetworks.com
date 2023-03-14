@@ -491,22 +491,18 @@ display: none;
         margin: 6em;
         margin-left: -10em;
       }
-      .email-link {
+      .support {
         margin: 8em;
         margin-left: -25em;
       }
-      .support {
-        margin: 10em;
-        margin-left: -21.5em;
-      }
       .support-numbers {
-        margin: 12em;
-        margin-left: -25em;
+        margin: 10em;
+        margin-left: -23em;
       }
       .sortus-footer {
         position: absolute;
         display: flex;
-        margin-left: 27.5em;
+        margin-left: 25.5em;
       }
       p{
         color: #1C4582;
@@ -529,7 +525,21 @@ display: none;
         position: absolute;
         width: 8em;
         height: 7em;
-        margin-left: 15em;
+        margin-left: 23em;
+      }
+      .sortus-opening-sentence {
+        position: absolute;
+        font-size: 1.5em;
+        margin: 5em;
+        margin-top: -13em;
+        color: aliceblue;
+      }
+      .sortus-opening-sentence-2{
+        position: absolute;
+        font-size: .65em;
+        margin: 12em;
+        margin-top: -25em;
+        color: aliceblue;
       }
 /*#backgroundimage {
   background-image: url(technology-2.jpeg);
