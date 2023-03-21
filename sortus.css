@@ -3,11 +3,13 @@ body{
     background-position: cover;
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin: auto 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 /*Top Navigation Bar and its responsive*/
 header{
- /*background-color: whitesmoke;*/
   margin: 0 auto;
   width: 100%;
   height: 4.5em;
@@ -55,7 +57,7 @@ nav li {
   background-image: url(technology-image.jpeg);
 }
 /*The media querry for the Navigation button*/
-@media (max-width: 350px) {
+/*@media (max-width: 350px) {
        nav a {
         margin-left: 30em;
         justify-content: space-between;
@@ -86,7 +88,7 @@ nav li {
         height: 4.5em;
         margin: 0;
       }
-}
+}*/
 
   /* Dropdown Button */
 .dropbtn {
@@ -163,11 +165,11 @@ nav li {
   flex-direction: column;
   justify-content: space-between;
 }
-div {
+/*div {
   border-top: .15em solid #69be94;
   margin: 3.5em 4.5em;
   width: 3.6em;
-}
+}*/
 h3 {
   color: #1C4582;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -177,7 +179,12 @@ h3 {
   margin: .25em auto;
   justify-content: space-between;
 }
-.about-sortus, .call-cente {
+.sortus-title {
+  border-top: .15em solid #69be94;
+  margin: 3.5em 4.5em;
+  width: 3.6em;
+}
+.about-sortus {
   color: #1C4582;
   font-size: .45em;
   text-align: left;
@@ -195,7 +202,7 @@ h3 {
   margin: -5em 310px;
   z-index: -1;
 }
-@media (max-width: 350px) {
+/*@media (max-width: 350px) {
      main{
     width: 300px;
   }
@@ -335,13 +342,17 @@ display: none;
         display: flex;
         z-index: 1;
       }
-    }
+    }*/
     /*End of media querry 2*/
 
     .second-div {
+      border-top: .15em solid #69be94;
       margin-top: 8em;
       width: 3.7em;
       margin-left: 4em;
+    }
+    .container-sortus {
+      margin-top: 4em;
     }
     .sortus-image, .sortus-image-2, .sortus-image-3 {
       width: 10em;
@@ -360,9 +371,6 @@ display: none;
     }
     .sortus-image-3 {
       margin-left: 24em;
-    }
-    .sortus-statement {
-      margin: 8em;
     }
     .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
       color: #1C4582;
@@ -384,7 +392,7 @@ display: none;
       margin: 10em;
       margin-left: 46em;
     }
-    .sortus-ocean-image {
+    /*.sortus-ocean-image {
       width: 79%;
       margin-top: 15em;
       margin-left: 4.5em;
@@ -392,12 +400,14 @@ display: none;
       display: flex;
       position: absolute;
       z-index: -9;
-    }
+    }*/
     .sortus-title-2 {
-      margin: 12em;
+      border-top: .15em solid #69be94;
+      margin: 15em;
       width: 6.8em;
       margin-left: 4em;
     }
+
     .reveal{
       position: relative;
       transform: translateY(150px);
@@ -429,7 +439,7 @@ display: none;
         text-align: left;
         margin-right: 55em;
         margin: 9em;
-        margin-top: -25em;
+        margin-top: -32em;
         width: 15em;
         display: block;
         justify-content: space-between;
@@ -463,10 +473,10 @@ display: none;
         width: 100%;
         background-color: #69be94;
         height: 15em;
-        position: absolute;
-        display: flex;
+        position: relative;
         font-size: .65em;
-        margin: auto;
+        display: flex;
+        bottom: 0;
       }
       h6 {
         color: #1C4582;
@@ -906,12 +916,20 @@ margin: 120px 30px;
   position: absolute;
   display: flex;
 }
+.sortus-opening-sentence-support, .sortus-opening-sentence-support-2  {
+  position: absolute;
+  font-size: 1.5em;
+  margin: 20em;
+  margin-top: -13em;
+  color: #1C4582;
+  z-index: 1;
+}
 .sortus-support-footer {
   width: 100%;
   background-color: #69be94;
   height: 15em;
-  position: absolute;
-  display: flex;
+  position: relative;
   font-size: .65em;
-  margin: auto;
+  display: flex;
+  bottom: 0;
 }
