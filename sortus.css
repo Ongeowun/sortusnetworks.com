@@ -556,15 +556,13 @@ display: none;
       .sortus-opening-sentence {
         position: absolute;
         font-size: 1.5em;
-        margin: 5em;
-        margin-top: -13em;
+        margin: 7em;
         color: aliceblue;
       }
       .sortus-opening-sentence-2{
         position: absolute;
         font-size: .65em;
-        margin: 12em;
-        margin-top: -25em;
+        margin: 20em;
         color: aliceblue;
       }
       .sortus-fontawesome {
@@ -918,25 +916,33 @@ margin: 120px 30px;
 }*/
 
 /*Sortus support CSS*/
-.sortus-support-welcome {
+/*.sortus-support-welcome {
   margin: 5em;
   position: absolute;
   display: flex;
-}
-/*.sortus-opening-sentence-support, .sortus-opening-sentence-support-2  {
+}*/
+.sortus-opening-sentence-support {
   position: absolute;
   font-size: 1.5em;
-  margin: 50em;
-  color: whitesmoke;
-  z-index: 1;
-  display: flex;
-}*/
-.sortus-support-footer {
-  width: 100%;
-  background-color: #69be94;
-  height: 15em;
-  position: relative;
-  font-size: .65em;
-  display: flex;
-  bottom: 0;
+  margin: 3em;
+  color: aliceblue;
+}
+.sortus-opening-sentence-support-2 {
+  position: absolute;
+  font-size: 1.5em;
+  margin: 13em;
+  margin-left: 3em;
+  width: 20em;
+  color: aliceblue;
+}
+.support-glassmorphism {
+  background: white;
+border-radius: 10px;
+box-shadow:  3px 3px  8px rgb(114, 113, 111),
+            -3px -3px  8px #ffffff;
+ -webkit-box-shadow: 3px 3px 8px rgb(114, 113, 111), -3px -3px 8px #ffffff;
+height: 15em;
+width: 10em;
+position: absolute;
+margin: 5em;
 }
