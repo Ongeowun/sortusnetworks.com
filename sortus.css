@@ -986,10 +986,41 @@ button {
 input {
   color: rgb(94, 92, 92);
 }
-aside {
+.support-aside {
   border: .5px solid;
   margin: 5em;
   margin-left: 15em;
   border-radius: .5em;
   height: 12em;
+}
+.surpport-h6 {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.support-whatsapp-link, .support-email-link, .sortus-support-number {
+  color: #1C4582;
+  margin: 1em 1.5em;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  font-size: .5em;
+  font-weight: bolder;
+}
+.support-email-link {
+  margin: 3em 1.5em;
+}
+.sortus-support-phone-number {
+  display: flex;
+  position: absolute;
+  margin: 5em 1.3em;
+}
+.sortus-support-number {
+ margin: 8em 1.7em;
+ font-size: .5em;
+ font-weight: bold;
+}
+
+.sortus-website {
+  margin: 10em 1.3em;
 }
