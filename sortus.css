@@ -935,14 +935,61 @@ margin: 120px 30px;
   width: 20em;
   color: aliceblue;
 }
+.sortus-support-message{
+  position: absolute;
+  margin: 5em;
+  }
 .support-glassmorphism {
   background: white;
 border-radius: 10px;
 box-shadow:  3px 3px  8px rgb(114, 113, 111),
             -3px -3px  8px #ffffff;
  -webkit-box-shadow: 3px 3px 8px rgb(114, 113, 111), -3px -3px 8px #ffffff;
-height: 15em;
+height: 12em;
 width: 10em;
 position: absolute;
 margin: 5em;
+margin-left: 3em;
+
+}
+.sortus-support-email {
+  font-size: .65em;
+  margin: .85em;
+  font-weight: bolder;
+}
+.surpport-email, .support-button {
+  display: flex;
+  margin: 1em;
+  border-color: #69be94;
+  border-radius: 2em;
+  font-size: .25em;
+  width: 30em;
+}
+.surpport{
+  height: 8em;
+}
+.paragraph {
+  font-size: .45em;
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  justify-content: center;
+  font-weight: bolder;
+  color: #1C4582;
+}
+.support-button{
+  margin: 4em;
+  width: 25em;
+}
+input {
+  color: rgb(94, 92, 92);
+}
+aside {
+  border: .5px solid;
+  margin: 5em;
+  margin-left: 15em;
+  border-radius: .5em;
+  height: 12em;
 }
