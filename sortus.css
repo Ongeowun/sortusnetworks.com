@@ -1024,3 +1024,8 @@ input {
 .sortus-website {
   margin: 10em 1.3em;
 }
+.website {
+  margin: -10em 1.3em;
+  position: absolute;
+  display: flex;
+}
