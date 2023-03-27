@@ -441,37 +441,49 @@ display: none;
       }
 
       .sortus-works {
-        color: #1C4582;
+        position: absolute;
         font-size: .45em;
         text-align: left;
         margin-right: 55em;
         margin: 9em;
         margin-top: -32em;
-        width: 15em;
-        display: block;
+        width: 30em;
+        display: flex;
         justify-content: space-between;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
-      .sortus-works-sentence-2 {
-        color: #1C4582;
-        font-size: .45em;
-        text-align: left;
-        margin-right: 55em;
-        margin: 36em;
-        margin-top: -24em;
+      .sortus-photo, .sortus-photo-2 {
+        justify-content: flex-end;
+        position: absolute;
+        display: flex;
         width: 15em;
-        display: block;
+        height: 18em;
+        margin: 22em;
+        margin-top: -17em;
+        z-index: -1;
+      }
+    
+      .sortus-works-sentence-2 {
+        font-size: .45em;
+        display: absolute;
+        text-align: left;
+        margin: 50em;
+        margin-top: 50em;
+        width: 30em;
         justify-content: space-between;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .sortus-photo-2 {
+        width: 16em;
+        height: 18em;
+        margin: 3em;
+        margin-top: -30em;
       }
       .sortus-works-sentence-3 {
-        color: #1C4582;
         font-size: .45em;
-        text-align: left;
-        margin-right: 55em;
-        margin: 60em;
-        margin-top: -51.5em;
-        width: 15em;
+        margin: 9em;
+        margin-top: -20em;
+        width: 50em;
         display: block;
         justify-content: space-between;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helv
@@ -530,7 +542,6 @@ display: none;
         margin-left: 28em;
       }
       p{
-        color: #1C4582;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: .65em;
         font-weight: bolder;
@@ -1004,7 +1015,7 @@ input {
   text-decoration: none;
   display: flex;
   position: absolute;
-  font-size: .5em;
+  font-size: .65em;
   font-weight: bolder;
 }
 .support-email-link {
@@ -1028,4 +1039,9 @@ input {
   margin: -10em 1.3em;
   position: absolute;
   display: flex;
+}
+.surpport-email-surpport {
+  color: black;
+  font-size: .65em;
+
 }
