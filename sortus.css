@@ -490,7 +490,7 @@ display: none;
       }
       footer{
         width: 100%;
-        background-color: #69be94;
+        background-color: #056435;
         height: 15em;
         position: relative;
         font-size: .65em;
@@ -1015,7 +1015,7 @@ input {
   text-decoration: none;
   display: flex;
   position: absolute;
-  font-size: .65em;
+  font-size: .55em;
   font-weight: bolder;
 }
 .support-email-link {
