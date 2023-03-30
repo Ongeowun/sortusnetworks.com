@@ -31,6 +31,8 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+
 /*const topNavigationBar = document.getElementById("top-navigation")
 const aboutUs = document.getElementById("about")
 const notes = document.getElementById("notes")
