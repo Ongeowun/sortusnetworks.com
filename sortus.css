@@ -72,10 +72,8 @@ nav li {
         margin: auto;
       }
       header {
-        background-color: whitesmoke;
         width: 100%;
         height: 4.5em;
-        position: fixed;
         align-items: right;
       }
       section.dropdown {
@@ -235,7 +233,10 @@ h3 {
        div {
         width: 3em;
       }
-      .image{
+      .sortus-opening-sentence-support{
+        margin: 5em;
+      }
+      .image, .sortus-opening-sentence-support-2{
 display: none;
       }
       .about-sortus {
@@ -348,6 +349,39 @@ display: none;
         display: flex;
         z-index: 1;
       }
+      /*Sortus support*/
+      .support-aside {
+        display: flex;
+        flex-direction: column;
+        margin: 10em;
+        position: center; 
+        min-width: 10em;
+      }
+      .website {
+        justify-content: space-between;
+        display: flex;
+        position: relative;
+        margin-bottom: 500em;
+      }
+      .sortus-opening-sentence-support-2, .sortus-footer-note, .sortus-footer-note-2{
+        display: none;
+      }
+      .sortus-footer {
+        display: none;
+      }
+      .sortus-fontawesome {
+        display: flex;
+        margin: 10em;
+        margin-left: 10em;
+      }
+      .copyright{
+        display: flex;
+        justify-content: space-between;
+        margin-right: -40em;
+        position: absolute;
+        width: 20em;
+      }
+ 
     }
 
     /*End of media querry 2*/
@@ -587,7 +621,7 @@ display: none;
       }
       .copyright {
         color: whitesmoke;
-        justify-content: center;
+        justify-content: space-between;
         display: flex;
         position: absolute;
         margin: 20em;
@@ -988,7 +1022,7 @@ margin-left: 3em;
   margin: .85em;
   font-weight: bolder;
 }
-.surpport-email, .support-button {
+.surpport-email, #support-button {
   display: flex;
   margin: 1em;
   border-color: #69be94;
@@ -1010,7 +1044,7 @@ button {
   font-weight: bolder;
   color: #1C4582;
 }
-.support-button{
+#support-button{
   margin: 4em;
   width: 25em;
 }
@@ -1057,9 +1091,10 @@ input {
   margin: 10em 1.3em;
 }
 .website {
-  margin: -10em 1.3em;
-  position: absolute;
   display: flex;
+  position: absolute;
+  justify-content: space-between;
+  margin: -10em 1.5em;
 }
 .surpport-email-surpport {
   color: black;
