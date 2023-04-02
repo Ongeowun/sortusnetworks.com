@@ -6,10 +6,9 @@ body{
     margin: auto;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 main {
-  margin: 0;
   display: flex;
   position: absolute;
   flex: 1;
@@ -215,13 +214,10 @@ h3 {
   z-index: -1;
 }
 
-
-    /*End of media querry 2*/
-    .container-sortus {
+   .container-sortus {
       display: flex;
-      flex-direction: column;
       position: absolute;
-      margin: auto;
+      flex-direction: column;
     }
     .second-div {
       border-top: .15em solid #69be94;
@@ -367,7 +363,8 @@ h3 {
         display: flex;
         position: absolute;
         flex-direction: column;
-        margin: auto;
+        width: 35em;
+        height: auto;
       }
       footer{
         width: 100%;
@@ -479,6 +476,16 @@ h3 {
         margin: 8em;
         width: 20em;
         margin-left: 70em;
+      }
+      .footer-support {
+        position: absolute;
+        width: 100%;
+        background-color: #13aa5f;
+        height: 15em;
+        font-size: .65em;
+        display: flex;
+        margin-top: -100em;
+        justify-content: space-between;
       }
 
 
@@ -830,6 +837,13 @@ margin: 120px 30px;
   position: absolute;
   display: flex;
 }*/
+.main-support {
+  flex-direction: column;
+  position: absolute;
+  margin: auto;
+  margin-top: 28em;
+  width: 30em;
+ }
 .sortus-opening-sentence-support {
   position: absolute;
   font-size: 1.5em;
@@ -847,6 +861,7 @@ margin: 120px 30px;
 .sortus-support-message{
   position: absolute;
   margin: 5em;
+  flex-direction: column;
   }
 .support-glassmorphism {
   background: white;
@@ -902,6 +917,7 @@ input {
   margin-left: 15em;
   border-radius: .5em;
   height: 12em;
+  width: 25em;
 }
 .surpport-h6 {
   color: #1C4582;
@@ -1086,6 +1102,7 @@ display: none;
      z-index: 1;
    }
    /*Sortus support*/
+
    .support-aside {
      display: flex;
      flex-direction: column;
