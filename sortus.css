@@ -65,8 +65,8 @@ nav li {
 /*The media querry for the Navigation button*/
 @media (max-width: 350px) {
        nav a {
-        margin-left: 30em;
         justify-content: space-between;
+        margin-left: 16em;
        }
       nav li {
        line-height: .55em; 
@@ -82,17 +82,18 @@ nav li {
         height: 4.5em;
         align-items: right;
       }
-      section.dropdown {
+      section.dropdown, .sortus-photo, .image-a, .sortus-opening-sentence-2, .sortus-photo-2{
         display: none;
       }
-      .image-a {
-        mix-blend-mode: multiply;
+      .sortus-container-3 {
+        display: flex;
+        flex-direction: column;
         position: absolute;
-        width: 6em;
-        height: 4.5em;
-        margin: 0;
       }
-}
+      .sortus-works{
+        margin-top: 10em;
+      }
+  }
 
   /* Dropdown Button */
 .dropbtn {
@@ -968,6 +969,9 @@ input {
   main{
  width: 300px;
 }
+.sortus-opening-sentence {
+  display: none;
+}
 .image-cover {
  width: 100%;
  height: 100%;
@@ -977,16 +981,18 @@ input {
      flex-direction: column;
      display: flex;
      align-items: center;
+     margin-top: -2em;
    }
    .landing-title, h3 {
      font-size: .45em;
      justify-content: space-between;
    }
    .landing-title{
-     margin-top: -30em;
+     margin-top: 30em;
     }
     .sortus-title {
-     margin-top: .45em;
+     width: 3em;
+     margin-top: .65em;
     }
     div {
      width: 3em;
@@ -1009,34 +1015,36 @@ display: none;
          order: -1;
 }
      .container-sortus {
-       width: -100px;
        display: flex;
        flex-direction: column;
        align-items: center;
-       margin-left: -30px;
-       margin-top: 50px;
+       position: absolute;
      }
-  
-
-   .title-2{
-     width: 8em;
-     z-index: -1;
-   }
    .second-div {
-     margin-top: 6em;
-     margin-left: 4.5em;
-     order: -1;
+     margin: 10em;
+     margin-left: 8em;
+     margin-top: 20em;
+     width: 3em;
    }
    .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
      width: 10em;
      height: 12em;
-     margin: 1em;
+     position: absolute;
      display: flex;
      justify-content: space-between;
      z-index: -1;
+     float: center;
    }
-   .sortus-image-2, .sortus-image-3, .sortus-image-4  {
-     float: left;
+   .sortus-image {
+     margin-top: 22em;
+   }
+   .sortus-image-2 {
+    margin: 30em;
+    margin-top: 35em;
+   }
+   .sortus-image-3 {
+    margin: 30em;
+    margin-top: 48em;
    }
    .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
      color: #1C4582;
@@ -1052,19 +1060,21 @@ display: none;
      width: 10em;
      position: center;
     margin: 30em;
+    margin-top: 50em;
    }
    .sortus-webDevelopment {
      position: center;
-     margin: auto 22em -17em;
+     margin: 30em;
+     margin-top: 70em;
    }
    .sortus-installation {
      position: center;
-     margin: auto 42em -17em;
+     margin: 30em;
+     margin-top: 90em;
    }
    .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
      width: 8em;
      height: 12em;
-     margin: 4em;
      justify-content: center;
    }
    .sortus-data-reselling:hover .sortus-webDevelopment:hover .sortus-installation:hover
@@ -1094,11 +1104,9 @@ display: none;
      z-index: -9;
    }
    .sortus-title-2 {
-     margin: 4.5em;
-     width: 4.5em;
-     position: absolute;
-     display: flex;
-     z-index: 1;
+     margin: 7.5em;
+     width: 6em;
+     margin-top: 62em;
    }
    /*Sortus support*/
 
