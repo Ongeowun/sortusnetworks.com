@@ -64,9 +64,19 @@ nav li {
 }
 /*The media querry for the Navigation button*/
 @media (max-width: 350px) {
+      body {
+        background-image: url(frame-1.jpeg);
+        background-position: cover;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column; 
+      }
        nav a {
         justify-content: space-between;
-        margin-left: 16em;
+        margin-left: 13em;
        }
       nav li {
        line-height: .55em; 
@@ -1117,13 +1127,19 @@ display: none;
      margin-top: 62em;
    }
    /*Sortus support*/
-
+    .main-support{
+      margin: 13em;
+      margin-left: -1em;
+      position: absolute;
+      
+    }
    .support-aside {
      display: flex;
      flex-direction: column;
-     margin: 10em;
+     margin: 20em;
      position: center; 
-     min-width: 10em;
+     max-width: 10em;
+     margin-left: 3em;
    }
    .website {
      justify-content: space-between;
@@ -1133,6 +1149,11 @@ display: none;
    }
    .sortus-opening-sentence-support-2, .sortus-footer-note, .sortus-footer-note-2{
      display: none;
+   }
+   .sortus-opening-sentence-support {
+    margin: 1em;
+    margin-top: 8em;
+    width: 10em;
    }
    .sortus-footer {
      display: none;
@@ -1148,5 +1169,27 @@ display: none;
      position: absolute;
      width: 20em;
    }
-
+   .support-whatsapp-link{
+    margin-top: 3em;
+   }
+   .support-email-link {
+    margin-top: 5em;
+   }
+   .sortus-support-phone-number {
+    margin-top: 8em;
+   }
+   .sortus-support-number {
+    margin-top: 12em;
+   }
+   .footer-image {
+    display: none;
+  }
+  .footer-support{
+    position: absolute;
+    width: 100%;
+    height: 15em;
+    font-size: .65em;
+    display: flex;
+    margin-top: 75em;
+  }
  }
