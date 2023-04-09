@@ -1,5 +1,5 @@
 body{
-    background-image: url(frame-1.jpeg);
+    /*background-image: url(frame-1.jpeg);*/
     background-position: cover;
     width: 100%;
     height: 100%;
@@ -7,6 +7,22 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column; 
+}
+.area {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: pink;
+  margin: -2em;
+  position: absolute;
+  margin-top: 30em;
+}
+.area2{
+  background-color: aqua;
+  width: 4em;
+  height: 4em;
+  border-radius: 2em;
+  margin: 12em;
 }
 main {
   display: flex;
@@ -35,6 +51,9 @@ nav li {
   margin: .45em .45em;
   padding: 0 .45em;
   }
+  nav li:hover {
+    transform: scale(1.5);
+  }
   nav a {
     text-decoration: none;
     /*color: #1C4582;*/
@@ -48,6 +67,7 @@ nav li {
   nav a:focus {
     background-color: #1C4582;
     color: whitesmoke;
+
 }
 
   nav a.active {
@@ -231,6 +251,8 @@ h3 {
   height: 20em;
   margin: -5em 310px;
   z-index: -1;
+  border-radius: 1em;
+  border: .25em solid pink;
 }
 
    .container-sortus {
@@ -255,6 +277,7 @@ h3 {
       justify-content: space-between;
       z-index: -1;
       border-radius: 1em;
+      border: .1em solid pink;
     }
     .sortus-image-2 {
       margin-left: 15.5em;
@@ -351,6 +374,8 @@ h3 {
         margin: 27em;
         margin-top: 60em;
         z-index: -1;
+        border-radius: 1em;
+        border: .1em solid pink;
       }
     
       .sortus-works-sentence-2 {
@@ -984,6 +1009,13 @@ input {
 .fa-brands, .fa-sharp{
   margin: .2em;
 }
+.fa-brands:hover, .fa-sharp:hover {
+  size: 10em;
+  color: #1C4582;
+  justify-content: space-between;
+  transform: scale(1.5);
+}
+
 @media (max-width: 350px) {
   main{
  width: 300px;
@@ -1243,4 +1275,16 @@ display: none;
   margin: 35em;
   margin-top: 40em;
   width: 25em;
+ }
+ .services {
+  margin: 16em;
+  width: 8em;
+ }
+ .sortus-services {
+   position: absolute;
+   margin: 8em;
+   font-size: .45em;
+   color: #1C4582;
+   margin-top: 55em;
+   width: 25em;
  }
