@@ -1320,3 +1320,7 @@ display: none;
    margin-top: 55em;
    width: 25em;
  }
+ .sortus-call-center-footer {
+  position: absolute;
+  margin-top: 100em;
+ }
