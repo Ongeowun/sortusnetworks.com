@@ -131,8 +131,9 @@ nav li {
         justify-content: space-between;
         margin-left: 13em;
        }
-      nav li {
+      nav li{
        line-height: .55em; 
+       pointer-events: none;
   }
       
       nav ul {
@@ -145,16 +146,19 @@ nav li {
         height: 4.5em;
         align-items: right;
       }
-      section.dropdown, .sortus-photo, .image-a, .sortus-opening-sentence-2, .sortus-photo-2{
+      section.dropdown, .sortus-photo, .image-a, .sortus-opening-sentence-2, .sortus-photo-2, .sortus-decoration-2{
         display: none;
       }
       .sortus-container-3 {
         display: flex;
         flex-direction: column;
         position: absolute;
+        margin-top: 60em;
       }
       .sortus-works{
-        margin-top: 10em;
+        margin-top: 3em;
+        position: absolute;
+        justify-content: space-between;
       }
       .footer{
         width: 100%;
@@ -162,6 +166,8 @@ nav li {
         height: 15em;
         font-size: .65em;
         display: flex;
+        position: absolute;
+        margin-top: 30em;
       }
   }
 
@@ -1083,7 +1089,7 @@ input {
    .sortus-opening-sentence-support{
      margin: 5em;
    }
-   .image, .sortus-opening-sentence-support-2{
+   .image, .sortus-opening-sentence-support-2, .about-sortus-decoration-2{
 display: none;
    }
    .about-sortus {
@@ -1191,7 +1197,7 @@ display: none;
    .sortus-title-2 {
      margin: 7.5em;
      width: 6em;
-     margin-top: 62em;
+     margin-top: 1em;
    }
    /*Sortus support*/
     .main-support{
@@ -1351,11 +1357,13 @@ display: none;
   position: absolute;
  }
  .about-sortus-decoration-2{
- background-image: linear-gradient(to right, #69be94, #c2bdbd );
+ background-image: linear-gradient(to top, #69be94, #c2bdbd );
  width: 6em;
  height: 6em;
  border-radius: 3em;
  position: absolute;
  display: flex;
- margin: 30em;
+ margin: 25em;
+ justify-content: end;
+ margin-left: 35em;
  }
