@@ -1367,3 +1367,26 @@ display: none;
  justify-content: end;
  margin-left: 35em;
  }
+ /*Sortus webdevelopment CSS*/
+ .sortus-webdevelopment-main {
+  position: absolute;
+  margin: 3em;
+  margin-top: 30em;
+ }
+ .sortus-web-header {
+  margin: 2.5em;
+  color: rgb(175, 158, 4);
+ }
+ .webdevelopment-opening-sentence {
+  margin: 5em;
+  margin-top: 10em;
+  width: 30em;
+  color:rgb(145, 75, 6);
+ }
+ .header-2, .header-3 {
+  margin: 2.5em;
+  margin-top: 8.5em;
+ }
+ .header-3 {
+   margin-top: 10em;
+ }
