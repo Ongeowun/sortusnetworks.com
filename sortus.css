@@ -1426,3 +1426,6 @@ display: none;
   margin-left: -10em;
   z-index: -1;
  }
+.webDevelopment-image {
+  height: 30em;
+}
