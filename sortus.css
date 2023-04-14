@@ -84,9 +84,9 @@ nav li {
   margin: .45em .45em;
   padding: 0 .45em;
   }
-  nav li:hover {
+  /*nav li:hover {
     transform: scale(1.5);
-  }
+  }*/
   nav a {
     text-decoration: none;
     /*color: #1C4582;*/
@@ -1358,6 +1358,7 @@ display: none;
   margin-left: -10em;
   display: flex;
   position: absolute;
+  z-index: -1;
  }
  .about-sortus-decoration-2{
  background-image: linear-gradient(to top, #69be94, #c2bdbd );
@@ -1369,6 +1370,10 @@ display: none;
  margin: 25em;
  justify-content: end;
  margin-left: 35em;
+ }
+ .sortus-about-statement {
+  margin: 5em;
+  width: 30em;
  }
  /*Sortus webdevelopment CSS*/
  .sortus-webdevelopment-main {
