@@ -1279,10 +1279,11 @@ display: none;
  .call-center {
   display: flex;
   color: #1C4582;
-  width: 20em;
+  width: 35em;
   margin: 8em;
-  margin-top: 20em;
+  margin-top: 15em;
   font-size: .45em ;
+  font-weight: bolder;
  }
  .image-callCenter {
   width: 13em;
@@ -1310,21 +1311,25 @@ display: none;
   font-size: .45em;
   display: flex;
   position: absolute;
-  margin: 35em;
-  margin-top: 40em;
-  width: 25em;
+  margin: 40em;
+  margin-top: 38em;
+  width: 45em;
+  font-weight: bolder;
  }
  .services {
   margin: 16em;
   width: 8em;
  }
- .sortus-services {
+ .sortus-services, .in-sortus-services{
    position: absolute;
    margin: 8em;
    font-size: .45em;
    color: #1C4582;
    margin-top: 55em;
    width: 25em;
+ }
+ .in-sortus-services {
+  margin-top: 70em;
  }
  .sortus-call-center-footer {
   position: absolute;
@@ -1337,18 +1342,23 @@ display: none;
  /*About sortus css*/
  .about-sortus-main {
   width: 40em;
-  height: 65em;
+  height: 35em;
   display: flex;
+  margin-left: 2em;
   margin-top: 30em;
  }
- .about-sortus-opening-sentence {
-  margin: auto 3em;
+ .about-sortus-opening-sentence, .about-sortus-opening-sentence-2, .about-sortus-opening-sentence-3 {
+  margin: 2em;
+  position: absolute;
   font-size: .85em;
   width: 20em;
   color: #1C4582;
   font-weight: bolder;
   z-index: 1;
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .about-sortus-opening-sentence-2 {
+ margin-top: 15em;
  }
  .about-sortus-decoration {
   background-color: rgb(199, 197, 197);
@@ -1373,7 +1383,23 @@ display: none;
  }
  .sortus-about-statement {
   margin: 5em;
-  width: 30em;
+  width: 35em;
+  z-index: 1;
+ }
+ .sortus-about-statement-2 {
+  margin: 2em;
+  width: 35em;
+  z-index: 1;
+ }
+ .about-sortus-opening-sentence-3 {
+ margin-top: 24em;
+ }
+ .sortus-about-statement-3 {
+  width: 35em;
+  margin: 2em;
+ }
+ .about-sortus-footer {
+  margin-top: 60em;
  }
  /*Sortus webdevelopment CSS*/
  .sortus-webdevelopment-main {
@@ -1436,4 +1462,42 @@ display: none;
  }
 .webDevelopment-image {
   height: 30em;
+}
+.webDevelopment {
+  margin: 5em;
+  position: absolute;
+  display: flex;
+  color: #1C4582;
+  font-weight: bolder;
+  margin-top: 62em;
+ width: 40em;
+}
+.app-developer {
+  position: absolute;
+  display: flex;
+  margin-top: 32em;
+}
+.sortus-app-developer {
+  color: rgb(175, 158, 4);
+  position: absolute;
+  display: flex;
+  margin-top: 34em;
+}
+.mobile-app {
+  display: flex;
+  position: absolute;
+  width: 15em;
+  height: 20em;
+  margin: 3em;
+  margin-top: 50em;
+  border-radius: .5em;
+  border: .15em solid pink;
+}
+/*Services*/
+.sortus-installation-main {
+  border: 1px solid black;
+  margin: 2em;
+  margin-top: 30em;
+  width: 40em;
+  height: 45em;
 }
