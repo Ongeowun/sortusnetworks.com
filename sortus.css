@@ -58,6 +58,8 @@ body{
   margin-left: -10em;
 }
 main {
+  margin-inline: auto;
+  width: min(90%, 70em);
   display: flex;
   position: absolute;
   flex: 1;
@@ -168,6 +170,10 @@ nav li {
         display: flex;
         position: absolute;
         margin-top: 30em;
+      }
+      .about-sortus-decoration-2 {
+        display: flex;
+        margin-left: 5em;
       }
   }
 
@@ -1265,6 +1271,8 @@ display: none;
     display: flex;
     margin-top: 75em;
   }
+  /*sortus web development*/
+ 
  }
  /*Sortus Call Center CSS*/
 
@@ -1349,6 +1357,7 @@ display: none;
  }
  .about-sortus-opening-sentence, .about-sortus-opening-sentence-2, .about-sortus-opening-sentence-3 {
   margin: 2em;
+  margin-left: 5em;
   position: absolute;
   font-size: .85em;
   width: 20em;
@@ -1359,6 +1368,8 @@ display: none;
  }
  .about-sortus-opening-sentence-2 {
  margin-top: 15em;
+ margin-left: 5em;
+ font-weight: bolder;
  }
  .about-sortus-decoration {
   background-color: rgb(199, 197, 197);
@@ -1378,25 +1389,34 @@ display: none;
  position: absolute;
  display: flex;
  margin: 25em;
- justify-content: end;
  margin-left: 35em;
  }
  .sortus-about-statement {
-  margin: 5em;
+  margin: 10em;
   width: 35em;
   z-index: 1;
+  font-size: .45em;
  }
  .sortus-about-statement-2 {
-  margin: 2em;
+  margin: 10em;
+  margin-top: 32em;
   width: 35em;
   z-index: 1;
+  position: absolute;
+  display: flex;
+  font-size: .45em;
  }
  .about-sortus-opening-sentence-3 {
  margin-top: 24em;
+ font-weight: bolder;
  }
  .sortus-about-statement-3 {
   width: 35em;
-  margin: 2em;
+  margin: 10em;
+  position: absolute;
+  display: flex;
+  margin-top: 50em;
+  font-size: .45em;
  }
  .about-sortus-footer {
   margin-top: 60em;
@@ -1406,16 +1426,20 @@ display: none;
   position: absolute;
   margin: 3em;
   margin-top: 30em;
-  display: flex;
+  display: flexbox;
+  justify-content: space-between;
  }
  .sortus-web-header {
   margin: 2.5em;
   color: rgb(175, 158, 4);
  }
  .webdevelopment-opening-sentence {
-  margin: 5em;
-  margin-top: 10em;
+  margin: 8em;
+  font-size: .45em;
+  margin-top: 15em;
   width: 30em;
+  position: absolute;
+  display: flex;
   color:rgb(145, 75, 6);
  }
  .header-2, .header-3 {
@@ -1441,8 +1465,9 @@ display: none;
   width: 30em;
   position: absolute;
   display: flex;
-  margin-left: 28em;
-  margin-top: 30em;
+  margin-left: 40em;
+  margin-top: 45em;
+  font-size: .45em;
  }
  .Front-end-header {
   margin-top: 23em;
@@ -1465,12 +1490,13 @@ display: none;
   height: 30em;
 }
 .webDevelopment {
-  margin: 5em;
+  margin: 8em;
+  font-size: .45em;
   position: absolute;
   display: flex;
   color: #1C4582;
   font-weight: bolder;
-  margin-top: 62em;
+  margin-top: 90em;
  width: 40em;
 }
 .app-developer {
@@ -1495,10 +1521,13 @@ display: none;
   border: .15em solid pink;
 }
 .sortus-app-developer-notes {
-  margin-left: 20em;
+  margin-left: 25em;
+  position: absolute;
+  display: flex;
   width: 30em;
-  margin-top: 65em;
+  margin-top: 105em;
   color: rgb(145, 75, 6);
+  font-size: .55em;
 }
 /*Services*/
 .sortus-installation-main {
