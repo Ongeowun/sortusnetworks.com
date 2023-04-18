@@ -1529,6 +1529,15 @@ display: none;
   color: rgb(145, 75, 6);
   font-size: .55em;
 }
+/*installation*/
+.sortus-maintenance {
+  width: 20em;
+  font-size: .85em;
+  color: #13aa5f;
+  font-weight: bolder;
+  position: absolute;
+
+}
 /*Services*/
 .sortus-installation-main {
   border: 1px solid black;
