@@ -47,12 +47,14 @@
     <p class="sortus-opening-sentence-support-2">Contact us for your Technology needs</p>
     <main class="main-support">
         <p class="sortus-support-message">Welcome to Sortus support</p>
-        <form action="https://formsubmit.co/support@sortusnetworks.com" method="POST" class="support-glassmorphism" target="_blank">
+        <form method="POST" target="_blank" action="https://formsubmit.co/support@sortusnetworks.com" class="support-glassmorphism" >
             <h6 class="sortus-support-email">Email Us</h6>
-            <p class="paragraph" type="text">Write Your name</p>
-            <input class="surpport-email" type="email" placeholder="input your name"><p class="paragraph">Write your email</p>
-            <input class="surpport-email" placeholder="input your mail"><p class="paragraph">Email body</p>
-            <input class="surpport-email surpport" placeholder="write your mail">
+            <p class="paragraph">Write Your name</p>
+            <input class="surpport-email" name="Name" type="name" placeholder="input your name" required>
+            <p class="paragraph">Write your email</p>
+            <input class="surpport-email"  placeholder="input your mail" type="email" required>
+            <p class="paragraph">Email body</p>
+            <input class="surpport-email surpport" type="text" placeholder="write your mail" required>
             <button id="support-button" type="submit" value="send email">send email</button>
         </form>
         <aside class="support-aside">
