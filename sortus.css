@@ -154,13 +154,17 @@ nav li {
       .sortus-container-3 {
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: center;
+        align-items: center;
+        border: 1px solid black;
         margin-top: 60em;
+        height: 15em;
+        width: 10em;
       }
       .sortus-works{
-        margin-top: 3em;
-        position: absolute;
-        justify-content: space-between;
+        position: center;
+        justify-content: column;
+        margin: 10em;
       }
       .footer{
         width: 100%;
@@ -168,12 +172,10 @@ nav li {
         height: 15em;
         font-size: .65em;
         display: flex;
-        position: absolute;
-        margin-top: 30em;
+        position: center;
       }
       .about-sortus-decoration-2 {
-        display: flex;
-        margin-left: 5em;
+        display: none;
       }
   }
 
@@ -306,7 +308,7 @@ h3 {
     }
     .second-div {
       border-top: .15em solid #69be94;
-      margin-top: 43em;
+      margin-top: 44em;
       width: 3.7em;
       margin-left: 4em;
     }
@@ -949,7 +951,6 @@ margin: 120px 30px;
 .sortus-support-message{
   position: absolute;
   margin: 5em;
-  flex-direction: column;
   }
 .support-glassmorphism {
   background: white;
@@ -1062,7 +1063,8 @@ input {
 
 @media (max-width: 350px) {
   main{
- width: 300px;
+ width: 30em;
+ flex-direction: column;
 }
 .sortus-opening-sentence {
   display: none;
@@ -1070,20 +1072,23 @@ input {
 .image-cover {
  width: 100%;
  height: 100%;
- margin: auto;
+ margin: 0;
 }
    .container {
      flex-direction: column;
      display: flex;
      align-items: center;
-     margin-top: -2em;
+     margin: 0;
+     width: 15em;
+     height: 75em;
    }
    .landing-title, h3 {
      font-size: .45em;
      justify-content: space-between;
+     margin: 0;
    }
    .landing-title{
-     margin-top: 30em;
+     margin-top: 25em;
     }
     .sortus-title {
      width: 3em;
@@ -1113,11 +1118,10 @@ display: none;
        display: flex;
        flex-direction: column;
        align-items: center;
-       position: absolute;
+       position: center;
      }
    .second-div {
-     margin: 10em;
-     margin-left: 8em;
+     margin: 6em;
      margin-top: 20em;
      width: 3em;
    }
@@ -1190,35 +1194,32 @@ display: none;
      z-index: 1;
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    }
-   .sortus-ocean-image {
-     width: 79%;
-     margin-top: -15em;
-     margin-left: 4.5em;
-     height: 15em;
-     display: flex;
-     position: relative;
-     z-index: -9;
-     border-radius: 1em;
-   }
    .sortus-title-2 {
-     margin: 7.5em;
+     margin: 1em;
      width: 6em;
-     margin-top: 1em;
+     margin-left: -19em;
    }
    /*Sortus support*/
     .main-support{
       margin: 13em;
       margin-left: 1em;
       position: absolute;
-      
+      width: 15em;
+      height: 35em;
     }
    .support-aside {
      display: flex;
      flex-direction: column;
-     margin: 20em;
+     margin: 15em;
      position: center; 
      max-width: 10em;
      margin-left: 3em;
+   }
+   .sortus-support-message {
+     margin-top: -2em;
+   }
+   .support-glassmorphism {
+    margin-top: 0;
    }
    .website {
      justify-content: space-between;
@@ -1265,11 +1266,10 @@ display: none;
   }
   .footer-support{
     position: absolute;
-    width: 100%;
     height: 15em;
     font-size: .65em;
     display: flex;
-    margin-top: 75em;
+    margin-top: 65em;
   }
   /*sortus web development*/
  
