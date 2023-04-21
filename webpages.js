@@ -1,4 +1,8 @@
+let sortuslink =document.getElementsByClassName("sortus-data-reselling")
 
+sortuslink.addEventListener("onclick", function sortusLink(){
+  
+})
 
 function reveal (){
   let reveals = document.querySelectorAll(".reveal")
