@@ -1,4 +1,47 @@
-const topNavigationBar = document.getElementById("top-navigation")
+let sortuslink =document.getElementsByClassName("sortus-data-reselling")
+
+sortuslink.addEventListener("onclick", function sortusLink(){
+  
+})
+
+function reveal (){
+  let reveals = document.querySelectorAll(".reveal")
+  for(let i = 0; i < reveals.length; i++){
+    let windowHeight = window.innerHeight
+    let elementTop = reveals[i].getBoundingClientRect().top
+    let elementVisible = 150;
+    if(elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active")
+    } else {
+      reveals[i].classList.remove("active")
+    }
+  }
+}
+window.addEventListener("scroll", reveal)
+reveal()
+
+function reveal() {
+  let reveals = document.querySelectorAll(".reveal");
+
+  for (let i = 0; i < reveals.length; i++) {
+    let windowHeight = window.innerHeight;
+    let elementTop = reveals[i].getBoundingClientRect().top;
+    let elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+
+
+
+/*const topNavigationBar = document.getElementById("top-navigation")
 const aboutUs = document.getElementById("about")
 const notes = document.getElementById("notes")
 const vision = document.getElementById("sortus-vision")
@@ -56,7 +99,7 @@ pay.textContent = `Pay for your services`
     } else {
         topNavigation.className = "top-navigation"
     }
-})*/
+})
 //image slider//
 let slideIndex = 0
 //image = ["sortus images.jpeg","technology.jpg","african-image.jpeg","african-technology.jpeg","technology-2.jpeg"]
@@ -74,4 +117,4 @@ function imagesInput(){
   images[slideIndex - 1].style.display = "block";
         setTimeout(imagesInput, 4000); // Change image every 4 seconds
 }
-
+*/
