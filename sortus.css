@@ -148,31 +148,8 @@ nav li {
         height: 4.5em;
         align-items: right;
       }
-      section.dropdown, .sortus-photo, .image-a, .sortus-opening-sentence-2, .sortus-photo-2, .sortus-decoration-2{
+      .section.dropdown, .sortus-photo, .image-a, .sortus-opening-sentence-2, .sortus-photo-2, .sortus-decoration-2{
         display: none;
-      }
-      .sortus-container-3 {
-        display: flex;
-        flex-direction: column;
-        position: center;
-        align-items: center;
-        border: 1px solid black;
-        margin-top: 60em;
-        height: 15em;
-        width: 10em;
-      }
-      .sortus-works{
-        position: center;
-        justify-content: column;
-        margin: 10em;
-      }
-      .footer{
-        width: 100%;
-        background-color: black;
-        height: 15em;
-        font-size: .65em;
-        display: flex;
-        position: center;
       }
       .about-sortus-decoration-2 {
         display: none;
@@ -282,6 +259,7 @@ h3 {
 }
 .about-sortus {
   color: #1C4582;
+  width: 30em;
   font-size: .45em;
   text-align: left;
   margin: -5.5em 10em;
@@ -412,7 +390,7 @@ h3 {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
       .sortus-photo, .sortus-photo-2 {
-        justify-content: flex-end;
+        justify-content: space-between;
         position: absolute;
         display: flex;
         width: 10em;
@@ -1061,219 +1039,7 @@ input {
   transform: scale(1.5);
 }
 
-@media (max-width: 350px) {
-  main{
- width: 30em;
- flex-direction: column;
-}
-.sortus-opening-sentence {
-  display: none;
-}
-.image-cover {
- width: 100%;
- height: 100%;
- margin: 0;
-}
-   .container {
-     flex-direction: column;
-     display: flex;
-     align-items: center;
-     margin: 0;
-     width: 15em;
-     height: 75em;
-   }
-   .landing-title, h3 {
-     font-size: .45em;
-     justify-content: space-between;
-     margin: 0;
-   }
-   .landing-title{
-     margin-top: 25em;
-    }
-    .sortus-title {
-     width: 3em;
-     margin-top: .65em;
-    }
-    div {
-     width: 3em;
-   }
-   .sortus-opening-sentence-support{
-     margin: 5em;
-   }
-   .image, .sortus-opening-sentence-support-2, .about-sortus-decoration-2{
-display: none;
-   }
-   .about-sortus {
-     color: #1C4582;
-     font-size: .45em;
-     align-items: center;
-     margin: auto;
-     margin-top: -5em;
-     width: 30em;
-}
-      h3{
-         order: -1;
-}
-     .container-sortus {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       position: center;
-     }
-   .second-div {
-     margin: 6em;
-     margin-top: 20em;
-     width: 3em;
-   }
-   .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
-     width: 10em;
-     height: 12em;
-     position: absolute;
-     display: flex;
-     justify-content: space-between;
-     z-index: -1;
-     float: center;
-   }
-   .sortus-image {
-     margin-top: 22em;
-   }
-   .sortus-image-2 {
-    margin: 30em;
-    margin-top: 35em;
-   }
-   .sortus-image-3 {
-    margin: 30em;
-    margin-top: 48em;
-   }
-   .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
-     color: #1C4582;
-     font-size: .65em;
-     position: absolute;
-     font-weight: bolder;
-     display: flex;
-     text-decoration: none;
-     z-index: 2;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   }
-   .sortus-data-reselling {
-     width: 10em;
-     position: center;
-    margin: 30em;
-    margin-top: 50em;
-   }
-   .sortus-webDevelopment {
-     position: center;
-     margin: 30em;
-     margin-top: 70em;
-   }
-   .sortus-installation {
-     position: center;
-     margin: 30em;
-     margin-top: 90em;
-   }
-   .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
-     width: 8em;
-     height: 12em;
-     justify-content: center;
-     border-radius: 1em;
-   }
-   .sortus-data-reselling:hover .sortus-webDevelopment:hover .sortus-installation:hover
-   .sortus-data-reselling:focus .sortus-webDevelopment:focus .sortus-installation:focus {
-     background-color: #1C4582;
-     color: whitesmoke;
-     z-index: 2;
-   }
-   .sortus-statement{
-     color: #1C4582;
-     margin: 20em;
-     position: center;
-     font-size: .65em;
-     text-align: left;
-     font-weight: bolder;
-     display: flex;
-     z-index: 1;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   }
-   .sortus-title-2 {
-     margin: 1em;
-     width: 6em;
-     margin-left: -19em;
-   }
-   /*Sortus support*/
-    .main-support{
-      margin: 13em;
-      margin-left: 1em;
-      position: absolute;
-      width: 15em;
-      height: 35em;
-    }
-   .support-aside {
-     display: flex;
-     flex-direction: column;
-     margin: 15em;
-     position: center; 
-     max-width: 10em;
-     margin-left: 3em;
-   }
-   .sortus-support-message {
-     margin-top: -2em;
-   }
-   .support-glassmorphism {
-    margin-top: 0;
-   }
-   .website {
-     justify-content: space-between;
-     display: flex;
-     position: relative;
-     margin-bottom: 500em;
-   }
-   .sortus-opening-sentence-support-2, .sortus-footer-note, .sortus-footer-note-2{
-     display: none;
-   }
-   .sortus-opening-sentence-support {
-    margin: 1em;
-    margin-top: 8em;
-    width: 10em;
-   }
-   .sortus-footer {
-     display: none;
-   }
-   .sortus-fontawesome {
-     display: flex;
-     margin: 13em;
-     margin-left: 5em;
-   }
-   .copyright{
-     display: flex;
-     justify-content: space-between;
-     position: absolute;
-     width: 20em;
-   }
-   .support-whatsapp-link{
-    margin-top: 3em;
-   }
-   .support-email-link {
-    margin-top: 5em;
-   }
-   .sortus-support-phone-number {
-    margin-top: 8em;
-   }
-   .sortus-support-number {
-    margin-top: 12em;
-   }
-   .footer-image {
-    display: none;
-  }
-  .footer-support{
-    position: absolute;
-    height: 15em;
-    font-size: .65em;
-    display: flex;
-    margin-top: 65em;
-  }
-  /*sortus web development*/
- 
- }
+
  /*Sortus Call Center CSS*/
 
  .sortus-Call-Center{
@@ -1419,7 +1185,7 @@ display: none;
   font-size: .45em;
  }
  .about-sortus-footer {
-  margin-top: 60em;
+  margin-top: 55em;
  }
  /*Sortus webdevelopment CSS*/
  .sortus-webdevelopment-main {
@@ -1566,3 +1332,260 @@ display: none;
   margin-left: 3.5em;
   width: 35em;
 }
+@media (max-width: 350px) {
+  main{
+ width: 30em;
+ flex-direction: column;
+}
+.sortus-opening-sentence {
+  display: none;
+}
+.image-cover {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+}
+   .container {
+     flex-direction: column;
+     display: flex;
+     align-items: center;
+     margin: 0;
+     width: 15em;
+     height: 75em;
+   }
+   .landing-title, h3 {
+     font-size: .45em;
+     justify-content: space-between;
+     margin: 0;
+   }
+   .landing-title{
+     margin-top: 25em;
+    }
+    .sortus-title {
+     width: 3em;
+     margin-top: .65em;
+    }
+    div {
+     width: 3em;
+   }
+   .sortus-opening-sentence-support{
+     margin: 5em;
+   }
+   .image, .sortus-opening-sentence-support-2, .about-sortus-decoration-2{
+display: none;
+   }
+   .about-sortus {
+     color: #1C4582;
+     font-size: .45em;
+     align-items: center;
+     margin: auto;
+     margin-top: -5em;
+     width: 30em;
+}
+      h3{
+         order: -1;
+}
+     .container-sortus {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: center;
+     }
+   .second-div {
+     margin: 6em;
+     margin-top: 20em;
+     width: 3em;
+   }
+   .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
+     width: 10em;
+     height: 12em;
+     position: absolute;
+     display: flex;
+     justify-content: space-between;
+     z-index: -1;
+     float: center;
+   }
+   .sortus-image {
+     margin-top: 22em;
+   }
+   .sortus-image-2 {
+    margin: 30em;
+    margin-top: 35em;
+   }
+   .sortus-image-3 {
+    margin: 30em;
+    margin-top: 48em;
+   }
+   .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
+     color: #1C4582;
+     font-size: .65em;
+     position: absolute;
+     font-weight: bolder;
+     display: flex;
+     text-decoration: none;
+     z-index: 2;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .sortus-data-reselling {
+     width: 10em;
+     position: center;
+    margin: 30em;
+    margin-top: 50em;
+   }
+   .sortus-webDevelopment {
+     position: center;
+     margin: 30em;
+     margin-top: 70em;
+   }
+   .sortus-installation {
+     position: center;
+     margin: 30em;
+     margin-top: 90em;
+   }
+   .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
+     width: 8em;
+     height: 12em;
+     justify-content: center;
+     border-radius: 1em;
+   }
+   .sortus-data-reselling:hover .sortus-webDevelopment:hover .sortus-installation:hover
+   .sortus-data-reselling:focus .sortus-webDevelopment:focus .sortus-installation:focus {
+     background-color: #1C4582;
+     color: whitesmoke;
+     z-index: 2;
+   }
+   .sortus-statement{
+     color: #1C4582;
+     margin: 20em;
+     position: center;
+     font-size: .65em;
+     text-align: left;
+     font-weight: bolder;
+     display: flex;
+     z-index: 1;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .sortus-title-2 {
+     margin: 1em;
+     width: 6em;
+     margin-left: 1em;
+   }
+   .sortus-works-sentence-3 {
+    margin: 2em;
+    margin-top: 100em;
+    width: 30em;
+    position: center;
+   }
+   .sortus-container-3 {
+    display: flex;
+    flex-direction: column;
+    position: center;
+    align-items: center;
+    margin-top: 60em;
+    height: 50em;
+    width: 15em;
+  }
+  .sortus-works{
+    position: center;
+    justify-content: column;
+    margin: 5em;
+    margin-left: 5em ;
+  }
+  .sortus-photo {
+    margin: 10em;
+   }
+ 
+   /*Sortus support*/
+    .main-support{
+      margin: 13em;
+      margin-left: 1em;
+      position: absolute;
+      width: 15em;
+      height: 35em;
+    }
+ 
+   .support-aside {
+     display: flex;
+     flex-direction: column;
+     margin: 15em;
+     position: center; 
+     max-width: 10em;
+     margin-left: 3em;
+   }
+   .sortus-support-message {
+     margin-top: -2em;
+   }
+   .support-glassmorphism {
+    margin-top: 0;
+   }
+   .website {
+     justify-content: space-between;
+     display: flex;
+     position: relative;
+     margin-bottom: 500em;
+   }
+   .sortus-opening-sentence-support-2, .sortus-footer-note, .sortus-footer-note-2{
+     display: none;
+   }
+   .sortus-opening-sentence-support {
+    margin: 1em;
+    margin-top: 8em;
+    width: 10em;
+   }
+   .sortus-footer {
+     display: none;
+   }
+   .sortus-fontawesome {
+     display: flex;
+     margin: 13em;
+     margin-left: 5em;
+   }
+   .copyright{
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     width: 20em;
+   }
+   .support-whatsapp-link{
+    margin-top: 3em;
+   }
+   .support-email-link {
+    margin-top: 5em;
+   }
+   .sortus-support-phone-number {
+    margin-top: 8em;
+   }
+   .sortus-support-number {
+    margin-top: 12em;
+   }
+   .footer-image {
+    display: none;
+  }
+  .footer-support{
+    position: absolute;
+    height: 15em;
+    font-size: .65em;
+    display: flex;
+    margin-top: 65em;
+  }
+  .sortus-works-sentence-2 {
+    margin-top: 53em;
+  }
+  .sortus-decoration-5{
+    z-index: -1;
+  }
+  footer{
+    width: 100%;
+    /*background-color: black;*/
+    height: 15em;
+    font-size: .65em;
+    display: flex;
+    position: center;
+    margin-top: 160em;
+  }
+  .sortus-photo-2 {
+    margin-top: 30em;
+  }
+  /*sortus web development*/
+ 
+ }
