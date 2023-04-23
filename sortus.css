@@ -1,4 +1,4 @@
-body{
+body, html{
     /*background-image: url(frame-1.jpeg);*/
     background-position: cover;
     width: 100%;
@@ -58,8 +58,10 @@ body{
   margin-left: -10em;
 }
 main {
+  margin-top: 20em;
   margin-inline: auto;
-  width: min(90%, 70em);
+  width: min(90%, 1000em);
+  height: auto;
   display: flex;
   position: absolute;
   flex: 1;
@@ -236,7 +238,7 @@ nav li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 30em;
+  margin-top: 0;
 }
 /*div {
   border-top: .15em solid #69be94;
@@ -280,13 +282,17 @@ h3 {
 }
 
    .container-sortus {
+      margin: 0;
+      width: min(90% 100em);
+      width: inherit;
       display: flex;
       position: absolute;
       flex-direction: column;
+      height: auto;
     }
     .second-div {
       border-top: .15em solid #69be94;
-      margin-top: 44em;
+      margin-top: 13em;
       width: 3.7em;
       margin-left: 4em;
     }
@@ -294,7 +300,7 @@ h3 {
       width: 10em;
       height: 12em;
       margin: 4em;
-      margin-top: 45em;
+      margin-top: 15em;
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -320,19 +326,19 @@ h3 {
     }
     .sortus-data-reselling {
       margin: 8em;
-      margin-top: 85em;
       width: 10em;
+      margin-top: 40em;
     }
     .sortus-webDevelopment {
       width: 10em;
       margin: 10em;
       margin-left: 28em;
-      margin-top: 85em;
+      margin-top: 40em;
     }
     .sortus-installation{
       margin: 10em;
       margin-left: 46em;
-      margin-top: 85em;
+      margin-top: 40em;
     }
     /*.sortus-ocean-image {
       width: 79%;
@@ -349,7 +355,6 @@ h3 {
       border-top: .15em solid #69be94;
       width: 6.8em;
       margin-left: 4em;
-      margin-top: 59em;
     }
 
     .reveal{
@@ -381,9 +386,8 @@ h3 {
         position: absolute;
         font-size: .45em;
         text-align: left;
-        margin-right: 55em;
         margin: 9em;
-        margin-top: 135em;
+        margin-top: 3em;
         width: 30em;
         display: flex;
         justify-content: space-between;
@@ -396,18 +400,19 @@ h3 {
         width: 10em;
         height: 13em;
         margin: 27em;
-        margin-top: 60em;
+        margin-top: -.1em;
         z-index: -1;
         border-radius: 1em;
         border: .1em solid pink;
       }
+
     
       .sortus-works-sentence-2 {
         font-size: .45em;
         display: absolute;
         text-align: left;
         margin: 50em;
-        margin-top: 170em;
+        margin-top: 30em;
         width: 30em;
         justify-content: space-between;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -416,33 +421,27 @@ h3 {
         width: 10em;
         height: 13em;
         margin: 4em;
-        margin-top: 75em;
+        margin-top: 14em;
       }
       .sortus-works-sentence-3 {
         position: absolute;
         font-size: .45em;
         margin: 9em;
-        margin-top: 200em;
+        margin-top: 65em;
         width: 50em;
         display: flex;
         justify-content: space-between;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helv
       }
       .sortus-container-3 {
+        margin-top: 28em;
         display: flex;
         position: absolute;
         flex-direction: column;
-        width: 35em;
-        height: auto;
+        width: min(90%, 70em);
+        height: 40em;
       }
-      footer{
-        width: 100%;
-        background-color: #13aa5f;
-        height: 15em;
-        font-size: .65em;
-        margin-top: 105em;
-        display: flex;
-      }
+ 
      h6  {
         color: whitesmoke;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -905,6 +904,13 @@ margin: 120px 30px;
   position: absolute;
   display: flex;
 }*/
+footer{
+  width: 100%;
+  background-color: #13aa5f;
+  font-size: .65em;
+  margin-top: 105em;
+  display: flex;
+}
 .main-support {
   flex-direction: column;
   position: absolute;
