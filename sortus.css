@@ -53,7 +53,7 @@ body, html{
   position: absolute;
   display: flex;
   margin: 5em;
-  margin-top: 58em;
+  margin-top: 52em;
   z-index: -1;
   margin-left: -10em;
 }
@@ -70,6 +70,7 @@ main {
 /*Top Navigation Bar and its responsive*/
 header{
   margin: 0;
+  padding: 0;
   width: 100%;
   height: 4.5em;
   position: absolute;
@@ -120,16 +121,16 @@ nav li {
   background-image: url(technology-image.jpeg);
 }
 /*The media querry for the Navigation button*/
-@media (max-width: 350px) {
+@media (max-width: 300px) {
       body {
         background-image: url(frame-1.jpeg);
         background-position: cover;
         width: 100%;
         height: 100%;
-        margin: auto;
         min-height: 100vh;
         display: flex;
         flex-direction: column; 
+        overflow-x: hidden;
       }
        nav a {
         justify-content: space-between;
@@ -149,6 +150,8 @@ nav li {
         width: 100%;
         height: 4.5em;
         align-items: right;
+        padding: 0;
+        margin: 0;
       }
       .section.dropdown, .sortus-photo, .image-a, .sortus-opening-sentence-2, .sortus-photo-2, .sortus-decoration-2{
         display: none;
@@ -315,7 +318,7 @@ h3 {
     .sortus-image-3 {
       margin-left: 27em;
     }
-    .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
+    .sortus-callCenter, .sortus-webDevelopment, .sortus-installation {
       color: #1C4582;
       font-size: .65em;
       position: absolute;
@@ -324,7 +327,7 @@ h3 {
       text-decoration: none;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .sortus-data-reselling {
+    .sortus-callCenter {
       margin: 8em;
       width: 10em;
       margin-top: 40em;
@@ -439,7 +442,7 @@ h3 {
         position: absolute;
         flex-direction: column;
         width: min(90%, 70em);
-        height: 40em;
+        height: 35em;
       }
  
      h6  {
@@ -552,7 +555,7 @@ h3 {
         height: 15em;
         font-size: .65em;
         display: flex;
-        margin-top: 80em;
+        margin-top: 55em;
       }
 
 
@@ -908,14 +911,16 @@ footer{
   width: 100%;
   background-color: #13aa5f;
   font-size: .65em;
-  margin-top: 105em;
+  margin-top: 130em;
+  height: 15em;
   display: flex;
+  position: absolute;
 }
 .main-support {
   flex-direction: column;
   position: absolute;
-  margin: auto;
-  margin-top: 28em;
+  margin: 2em;
+  margin-top: 16em;
   width: 30em;
  }
 .sortus-opening-sentence-support {
@@ -927,7 +932,7 @@ footer{
 .sortus-opening-sentence-support-2 {
   position: absolute;
   font-size: 1.5em;
-  margin: 13em;
+  margin: 10em;
   margin-left: 3em;
   width: 20em;
   color: aliceblue;
@@ -1053,7 +1058,7 @@ input {
   justify-content: column;
   width: 100%;
   height: 100%;
-  margin-top: 25em;
+  margin-top: 20em;
   position: absolute;
  }
  .call-center {
@@ -1198,8 +1203,10 @@ input {
   position: absolute;
   margin: 3em;
   margin-top: 30em;
-  display: flexbox;
+  display: flex;
+  height: 70em;
   justify-content: space-between;
+  border: 1px solid black;
  }
  .sortus-web-header {
   margin: 2.5em;
@@ -1301,6 +1308,10 @@ input {
   color: rgb(145, 75, 6);
   font-size: .55em;
 }
+.webdevelopment-footer {
+  margin-top: 153em;
+  
+}
 /*installation*/
 .sortus-maintenance {
   width: 20em;
@@ -1338,9 +1349,13 @@ input {
   margin-left: 3.5em;
   width: 35em;
 }
-@media (max-width: 350px) {
+@media (max-width: 300px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
   main{
- width: 30em;
+ width: 15em;
  flex-direction: column;
 }
 .sortus-opening-sentence {
@@ -1355,9 +1370,8 @@ input {
      flex-direction: column;
      display: flex;
      align-items: center;
-     margin: 0;
      width: 15em;
-     height: 75em;
+     height: 10em;
    }
    .landing-title, h3 {
      font-size: .45em;
@@ -1365,7 +1379,7 @@ input {
      margin: 0;
    }
    .landing-title{
-     margin-top: 25em;
+     margin-top: 0;
     }
     .sortus-title {
      width: 3em;
@@ -1392,6 +1406,9 @@ display: none;
          order: -1;
 }
      .container-sortus {
+      margin-top: 8em;
+      width: 15em;
+      height: 40em;
        display: flex;
        flex-direction: column;
        align-items: center;
@@ -1399,7 +1416,7 @@ display: none;
      }
    .second-div {
      margin: 6em;
-     margin-top: 20em;
+     margin-top: .5em;
      width: 3em;
    }
    .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
@@ -1412,17 +1429,17 @@ display: none;
      float: center;
    }
    .sortus-image {
-     margin-top: 22em;
+     margin-top: 2em;
    }
    .sortus-image-2 {
     margin: 30em;
-    margin-top: 35em;
+    margin-top: 15em;
    }
    .sortus-image-3 {
     margin: 30em;
-    margin-top: 48em;
+    margin-top: 28em;
    }
-   .sortus-data-reselling, .sortus-webDevelopment, .sortus-installation {
+   .sortus-callCenter, .sortus-webDevelopment, .sortus-installation {
      color: #1C4582;
      font-size: .65em;
      position: absolute;
@@ -1432,21 +1449,21 @@ display: none;
      z-index: 2;
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    }
-   .sortus-data-reselling {
+   .sortus-callCenter {
      width: 10em;
      position: center;
     margin: 30em;
-    margin-top: 50em;
+    margin-top: 20em;
    }
    .sortus-webDevelopment {
      position: center;
      margin: 30em;
-     margin-top: 70em;
+     margin-top: 40em;
    }
    .sortus-installation {
      position: center;
      margin: 30em;
-     margin-top: 90em;
+     margin-top: 60em;
    }
    .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
      width: 8em;
@@ -1454,8 +1471,8 @@ display: none;
      justify-content: center;
      border-radius: 1em;
    }
-   .sortus-data-reselling:hover .sortus-webDevelopment:hover .sortus-installation:hover
-   .sortus-data-reselling:focus .sortus-webDevelopment:focus .sortus-installation:focus {
+   .sortus-callCenter:hover .sortus-webDevelopment:hover .sortus-installation:hover
+   .sortus-callCenter:focus .sortus-webDevelopment:focus .sortus-installation:focus {
      background-color: #1C4582;
      color: whitesmoke;
      z-index: 2;
@@ -1487,7 +1504,7 @@ display: none;
     flex-direction: column;
     position: center;
     align-items: center;
-    margin-top: 60em;
+    margin-top: 48em;
     height: 50em;
     width: 15em;
   }
@@ -1503,11 +1520,11 @@ display: none;
  
    /*Sortus support*/
     .main-support{
-      margin: 13em;
+      margin: 20em;
       margin-left: 1em;
       position: absolute;
       width: 15em;
-      height: 35em;
+      height: 28em;
     }
  
    .support-aside {
@@ -1572,7 +1589,7 @@ display: none;
     height: 15em;
     font-size: .65em;
     display: flex;
-    margin-top: 65em;
+    margin-top: 75em;
   }
   .sortus-works-sentence-2 {
     margin-top: 53em;
@@ -1587,11 +1604,89 @@ display: none;
     font-size: .65em;
     display: flex;
     position: center;
-    margin-top: 160em;
+    margin-top: 188em;
   }
   .sortus-photo-2 {
     margin-top: 30em;
   }
-  /*sortus web development*/
- 
+  .dropdown {
+    display: none;
+  }
+  /*call- center*/
+
+  .sortus-Call-Center {
+    align-items: center;
+    display: center;
+    position: center;
+    height: 45em;
+  }
+  h5 {
+    margin: 0;
+    width: 10em;
+    margin-left: 3em;
+    font-size: 1em;
+  }
+  .call-center{
+    margin-left: 10em;
+    width: 30em;
+    margin: 7em;
+  }
+  .Surveys {
+    margin: 12em;
+    margin-left: 15em;
+  }
+  .sortus-surveys {
+    margin: 33em;
+    width: 30em;
+  }
+  .services {
+    margin: 24.5em;
+    width: 10em;
+  }
+  .sortus-services, .in-sortus-services {
+    font-size: .5em;
+    color: black;
+  }
+
+  .image-callCenter {
+    display: none;
+  }
+  /*webdevelopment*/
+  .sortus-webdevelopment-main {
+    margin: 20em;
+    margin-left: 0;
+    border: 1px solid black;
+    align-items: center;
+  }
+  .sortus-web-header {
+    margin: 1.5em;
+  }
+  .webdevelopment-opening-sentence {
+    margin: 8em;
+  }
+  .header-2 {
+    margin: 9em;
+    margin-left: 22em;
+  }
+  .header-3 {
+    margin: 10em;
+    margin-left: 22em;
+  }
+  .uxui-design {
+    margin: 12em;
+  }
+  .uxui-design-statement {
+    margin: 20em;
+    margin-top: 62em;
+  }
+  .Front-end-header {
+    margin: 30em;
+    margin-top: 35em;
+   margin-left: 40em;
+  }
+  .front-end {
+    margin: 37em;
+    margin-top: 36.5em;
+    margin-left: 40em;
+  }
  }
