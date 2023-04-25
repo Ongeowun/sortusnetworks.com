@@ -1206,7 +1206,6 @@ input {
   display: flex;
   height: 70em;
   justify-content: space-between;
-  border: 1px solid black;
  }
  .sortus-web-header {
   margin: 2.5em;
@@ -1654,8 +1653,8 @@ display: none;
   /*webdevelopment*/
   .sortus-webdevelopment-main {
     margin: 20em;
+    height: 57em;
     margin-left: 0;
-    border: 1px solid black;
     align-items: center;
   }
   .sortus-web-header {
@@ -1688,5 +1687,27 @@ display: none;
     margin: 37em;
     margin-top: 36.5em;
     margin-left: 40em;
+  }
+  .webDevelopment {
+    width: 30em;
+    margin-top: 85em;
+  }
+  .app-developer {
+    margin-top: 46em;
+  }
+  .sortus-app-developer {
+    margin-top: 48em;
+  }
+  .mobile-app {
+    display: none;
+  }
+  .sortus-app-developer-notes {
+    margin: 20em;
+    margin-top: 91em;
+    width: 25em;
+    font-size: .55em;
+  }
+  .webdevelopment-footer {
+    margin-top: 125em;
   }
  }
