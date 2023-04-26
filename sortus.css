@@ -4,9 +4,9 @@ body, html{
     width: 100%;
     height: 100%;
     margin: auto;
-    min-height: 100vh;
+    /*min-height: 100vh;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;*/
 }
 .sortus-decoration {
   width: 100px;
