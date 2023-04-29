@@ -121,7 +121,7 @@ nav li {
   background-image: url(technology-image.jpeg);
 }
 /*The media querry for the Navigation button*/
-@media (max-width: 300px) {
+@media (min-width: 300px) and (max-width: 414px) {
       body {
         background-image: url(frame-1.jpeg);
         background-position: cover;
@@ -132,9 +132,13 @@ nav li {
         flex-direction: column; 
         overflow-x: hidden;
       }
+      .image-cover {
+        display: none;
+      }
        nav a {
-        justify-content: space-between;
         margin-left: 13em;
+        padding: 0;
+        color: black;
        }
       nav li{
        line-height: .55em; 
@@ -143,8 +147,10 @@ nav li {
       
       nav ul {
         flex-direction: column;
-        padding: 0 auto;
-        margin: auto;
+        align-items: end;
+        padding: 0;
+        margin: 0;
+        color: black;
       }
       header {
         width: 100%;
@@ -555,7 +561,7 @@ h3 {
         height: 15em;
         font-size: .65em;
         display: flex;
-        margin-top: 55em;
+        margin-top: 60em;
       }
 
 
@@ -920,8 +926,9 @@ footer{
   flex-direction: column;
   position: absolute;
   margin: 2em;
-  margin-top: 16em;
+  margin-top: 20em;
   width: 30em;
+  height: 20em;
  }
 .sortus-opening-sentence-support {
   position: absolute;
@@ -1348,7 +1355,7 @@ input {
   margin-left: 3.5em;
   width: 35em;
 }
-@media (max-width: 300px) {
+@media (min-width: 300px) and (max-width: 414px) {
   html, body {
     margin: 0;
     padding: 0;
@@ -1519,11 +1526,12 @@ display: none;
  
    /*Sortus support*/
     .main-support{
-      margin: 20em;
-      margin-left: 1em;
-      position: absolute;
+      margin: 7em;
+      margin-left: 3em;
+      position: center;
       width: 15em;
-      height: 28em;
+      height: 30em;
+      flex-direction: column;
     }
  
    .support-aside {
@@ -1588,7 +1596,8 @@ display: none;
     height: 15em;
     font-size: .65em;
     display: flex;
-    margin-top: 75em;
+    margin-top: 55em;
+    overflow: hidden;
   }
   .sortus-works-sentence-2 {
     margin-top: 53em;
