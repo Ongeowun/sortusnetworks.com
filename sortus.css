@@ -4,8 +4,8 @@ body, html{
     width: 100%;
     height: 100%;
     margin: auto;
-    font-size: 1.5em;
-    /*min-height: 100vh;*/
+    font-size: 1em;
+    min-height: 100vh;
     display: flex;
     flex-direction: column
 }
@@ -120,54 +120,8 @@ nav li {
   width: 6em;
   height: 4.5em;
   margin: 0 3.5em;
-  background-image: url(technology-image.jpeg);
+  /*background-image: url(technology-image.jpeg);*/
 }
-/*The media querry for the Navigation button*/
-@media (min-width: 300px) and (max-width: 414px) {
-      body {
-        background-image: url(frame-1.jpeg);
-        background-position: cover;
-        width: 100%;
-        height: 100%;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column; 
-        overflow-x: hidden;
-      }
-      .image-cover {
-        display: none;
-      }
-       nav a {
-        margin-left: 13em;
-        padding: 0;
-        color: black;
-       }
-      nav li{
-       line-height: .55em; 
-       pointer-events: none;
-  }
-      
-      nav ul {
-        flex-direction: column;
-        align-items: end;
-        padding: 0;
-        margin: 0;
-        color: black;
-      }
-      header {
-        width: 100%;
-        height: 4.5em;
-        align-items: right;
-        padding: 0;
-        margin: 0;
-      }
-      .section.dropdown, .sortus-photo, .image-a, .sortus-opening-sentence-2, .sortus-photo-2, .sortus-decoration-2{
-        display: none;
-      }
-      .about-sortus-decoration-2 {
-        display: none;
-      }
-  }
 
   /* Dropdown Button */
 .dropbtn {
@@ -563,7 +517,7 @@ h3 {
         height: 15em;
         font-size: .65em;
         display: flex;
-        margin-top: 60em;
+        margin-top: 95em;
       }
 
 
@@ -928,8 +882,8 @@ footer{
   flex-direction: column;
   position: absolute;
   margin: 2em;
-  margin-top: 20em;
-  width: 30em;
+  margin-top: 40em;
+  width: 40em;
   height: 20em;
  }
 .sortus-opening-sentence-support {
@@ -1363,6 +1317,7 @@ input {
   html, body {
     margin: 0;
     padding: 0;
+    font-size: 1.8em;
   }
   main{
  width: 25em;
@@ -1531,14 +1486,27 @@ display: none;
    /*Sortus support*/
     .main-support{
       margin: 7em;
-      margin-left: 3em;
-      position: center;
+      margin-left: 0;
       width: 15em;
       height: 30em;
       flex-direction: column;
-
     }
- 
+    #support-button {
+      margin: 2.5em;
+    }
+    .footer-notes {
+      margin: 5em;
+      margin-left: 20em;
+    }
+    .footer-contact, .sortus-chat, .support {
+      margin: 1em;
+    }
+    .sortus-chat {
+      margin-top: 4em;
+    }
+    .support {
+      margin-top: 6em;
+    }
    .support-aside {
      display: flex;
      flex-direction: column;
@@ -1573,7 +1541,7 @@ display: none;
    .sortus-fontawesome {
      display: flex;
      margin: 13em;
-     margin-left: 5em;
+     margin-left: 1em;
    }
    .copyright{
      display: flex;
@@ -1670,12 +1638,13 @@ display: none;
     height: 57em;
     margin-left: 0;
     align-items: center;
+    border: 1px solid black;
   }
   .sortus-web-header {
     margin: 1.5em;
   }
   .webdevelopment-opening-sentence {
-    margin: 8em;
+    margin: 5em;
   }
   .header-2 {
     margin: 9em;
@@ -1725,3 +1694,57 @@ display: none;
     margin-top: 125em;
   }
  }
+ /*The media querry for the Navigation button*/
+@media (min-width: 300px) and (max-width: 414px) {
+  body {
+    background-image: url(frame-1.jpeg);
+    background-position: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+    font-size: .45em;
+  }
+  .image-cover {
+    display: none;
+  }
+   nav a {
+    margin-left: 13em;
+    color: azure;
+   }
+  nav li{
+   line-height: .55em; 
+   pointer-events: none;
+}
+  
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    color: azure;
+  }
+  header {
+    width: 100%;
+    height: 5em;
+    align-items: right;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+  .section.dropdown, .sortus-photo, .sortus-opening-sentence-2, .sortus-photo-2, .sortus-decoration-2{
+    display: none;
+  }
+  .image-a {
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 6em;
+    height: 4.5em;
+    margin: 0;
+
+  }
+  .about-sortus-decoration-2 {
+    display: none;
+  }
+}
