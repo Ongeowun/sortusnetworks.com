@@ -4,17 +4,18 @@ body, html{
     width: 100%;
     height: 100%;
     margin: auto;
-    font-size: 1em;
+    font-size: 1.5em;
     min-height: 100vh;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    overflow-wrap: hidden;
 }
 .sortus-decoration {
   width: 100px;
   height: 100px;
   border-radius: 50px;
   background-color: pink;
-  margin: -2em;
+  margin: -1.5em;
   position: absolute;
   margin-top: 30em;
   
@@ -27,7 +28,7 @@ body, html{
   position: absolute;
   display: flex;
   margin: 10em;
-  margin-top: 40em;
+  margin-top: 35em;
 }
 .sortus-decoration-3 {
   background-color: green;
@@ -35,8 +36,8 @@ body, html{
   height: 2em;
   position: absolute;
   display: flex;
-  margin: 60em;
-  margin-left: 32em;
+  margin: 48em;
+  margin-left: 25em;
 }
 .sortus-decoration-4 {
   background-color: greenyellow;
@@ -44,8 +45,8 @@ body, html{
   height: 2em;
   position: absolute;
   display: flex;
-  margin: 61em;
-  margin-left: 36em;
+  margin: 49em;
+  margin-left: 25em;
 }
 .sortus-decoration-5 {
   background-color: rgb(228, 224, 224);
@@ -55,15 +56,15 @@ body, html{
   position: absolute;
   display: flex;
   margin: 5em;
-  margin-top: 52em;
+  margin-top: 40em;
   z-index: -1;
-  margin-left: -10em;
+  margin-left: -8em;
 }
 main {
-  margin-top: 20em;
+  margin-top: 35em;
   margin-inline: auto;
   width: min(90%, 1000em);
-  height: auto;
+  height: 65em;
   display: flex;
   position: absolute;
   flex: 1;
@@ -183,7 +184,7 @@ nav li {
 .image-cover {
   width: 100%;
   height: 100%;
-  margin: auto;
+  margin: 0;
 }
 .sortus-opening-sentence {
   margin: 50em;
@@ -240,7 +241,7 @@ h3 {
   display: block;
   width: 30em;
   height: 20em;
-  margin: -5em 310px;
+  margin: -5em 42em;
   z-index: -1;
   border-radius: 1em;
   border: .25em solid pink;
@@ -488,6 +489,7 @@ h3 {
         font-size: .65em;
         margin: 20em;
         color: aliceblue;
+        width: 25em;
       }
       .sortus-fontawesome {
         position: absolute;
@@ -873,7 +875,7 @@ footer{
   width: 100%;
   background-color: #13aa5f;
   font-size: .65em;
-  margin-top: 130em;
+  margin-top: 155em;
   height: 15em;
   display: flex;
   position: absolute;
@@ -1129,7 +1131,7 @@ input {
  position: absolute;
  display: flex;
  margin: 25em;
- margin-left: 35em;
+ margin-left: 30em;
  }
  .sortus-about-statement {
   margin: 10em;
@@ -1313,15 +1315,18 @@ input {
   margin-left: 3.5em;
   width: 35em;
 }
-@media (min-width: 300px) and (max-width: 414px) {
+@media (min-width: 300px) and (max-width: 480px) {
   html, body {
     margin: 0;
     padding: 0;
-    font-size: 1.8em;
+    font-size: .85em;
   }
   main{
- width: 25em;
+ width: 20em;
+ margin: 2em;
  flex-direction: column;
+ border: 1px solid black;
+ height: 100em;
 }
 .sortus-opening-sentence {
   display: none;
@@ -1371,7 +1376,7 @@ display: none;
          order: -1;
 }
      .container-sortus {
-      margin-top: 8em;
+      margin-top: 10em;
       width: 15em;
       height: 40em;
        display: flex;
@@ -1382,7 +1387,7 @@ display: none;
    .second-div {
      margin: 6em;
      margin-top: .5em;
-     width: 3em;
+     width: 3.5em;
    }
    .sortus-image, .sortus-image-2, .sortus-image-3, .sortus-image-4{
      width: 10em;
@@ -1454,9 +1459,9 @@ display: none;
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    }
    .sortus-title-2 {
-     margin: 1em;
-     width: 6em;
-     margin-left: 1em;
+     margin: 2.8em;
+     width: 6.5em;
+     margin-left: 3em;
    }
    .sortus-works-sentence-3 {
     margin: 2em;
@@ -1476,11 +1481,13 @@ display: none;
   .sortus-works{
     position: center;
     justify-content: column;
-    margin: 5em;
-    margin-left: 5em ;
+    margin: 8em;
+    margin-left: 8em ;
   }
   .sortus-photo {
-    margin: 10em;
+    margin: 13em;
+    width: 8.5em;
+    height: 10.5em;
    }
  
    /*Sortus support*/
@@ -1492,11 +1499,11 @@ display: none;
       flex-direction: column;
     }
     #support-button {
-      margin: 2.5em;
+      margin: 3em;
     }
     .footer-notes {
-      margin: 5em;
-      margin-left: 20em;
+      margin: 2em;
+      margin-left: 25em;
     }
     .footer-contact, .sortus-chat, .support {
       margin: 1em;
@@ -1510,7 +1517,7 @@ display: none;
    .support-aside {
      display: flex;
      flex-direction: column;
-     margin: 15em;
+     margin: 18em;
      position: center; 
      max-width: 10em;
      margin-left: 3em;
@@ -1519,7 +1526,8 @@ display: none;
      margin-top: -2em;
    }
    .support-glassmorphism {
-    margin-top: 0;
+    margin-top: 2em;
+    height: fit-content;
    }
    .website {
      justify-content: space-between;
@@ -1540,7 +1548,7 @@ display: none;
    }
    .sortus-fontawesome {
      display: flex;
-     margin: 13em;
+     margin: 8em;
      margin-left: 1em;
    }
    .copyright{
@@ -1548,6 +1556,7 @@ display: none;
      justify-content: space-between;
      position: absolute;
      width: 20em;
+     margin: 12.5em;
    }
    .support-whatsapp-link{
     margin-top: 3em;
@@ -1566,17 +1575,18 @@ display: none;
   }
   .footer-support{
     position: absolute;
-    height: 15em;
+    height: 10em;
     font-size: .65em;
+    width: 100%;
     display: flex;
-    margin-top: 55em;
+    margin-top: 60em;
     overflow: hidden;
   }
   .sortus-works-sentence-2 {
-    margin-top: 53em;
+    margin-top: 55em;
   }
-  .sortus-decoration-5{
-    z-index: -1;
+  .sortus-decoration-5, .sortus-decoration{
+    z-index: -9;
   }
   footer{
     width: 100%;
@@ -1588,7 +1598,7 @@ display: none;
     margin-top: 188em;
   }
   .sortus-photo-2 {
-    margin-top: 30em;
+    margin-top: 33em;
   }
   .dropdown {
     display: none;
@@ -1695,9 +1705,9 @@ display: none;
   }
  }
  /*The media querry for the Navigation button*/
-@media (min-width: 300px) and (max-width: 414px) {
+@media (min-width: 300px) and (max-width: 480px) {
   body {
-    background-image: url(frame-1.jpeg);
+    /*background-image: url(frame-1.jpeg);*/
     background-position: cover;
     width: 100%;
     height: 100%;
@@ -1705,7 +1715,7 @@ display: none;
     display: flex;
     flex-direction: column; 
     overflow: hidden;
-    font-size: .45em;
+    font-size: .85em;
   }
   .image-cover {
     display: none;
@@ -1733,7 +1743,7 @@ display: none;
     margin: 0;
     background-color: black;
   }
-  .section.dropdown, .sortus-photo, .sortus-opening-sentence-2, .sortus-photo-2, .sortus-decoration-2{
+  .section.dropdown, .sortus-opening-sentence-2, .sortus-decoration-2{
     display: none;
   }
   .image-a {
@@ -1742,9 +1752,37 @@ display: none;
     width: 6em;
     height: 4.5em;
     margin: 0;
-
   }
   .about-sortus-decoration-2 {
     display: none;
   }
+}
+/*media querry for a screen from 481px and less than 768px, ipads and tablets*/
+@media (min-width: 481px) and (max-width: 768px) {
+  main {
+    width: 40em;
+    margin-top: 25em;
+  }
+  .image-cover {
+    width: 40em;
+    height: 100%;
+  }
+footer{
+width: 62em;
+margin-top: 145em;
+}
+.sortus-opening-sentence {
+ width: 20em;
+}
+nav {
+  margin: 0 -20em;
+}
+/*support css code*/
+.main-support {
+  width: 35em;
+  margin-top: 15em;
+}
+.support-aside {
+  width: 20em;
+}
 }
