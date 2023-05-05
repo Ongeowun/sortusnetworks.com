@@ -36,7 +36,7 @@ body, html{
   height: 2em;
   position: absolute;
   display: flex;
-  margin: 48em;
+  margin: 50em;
   margin-left: 25em;
 }
 .sortus-decoration-4 {
@@ -45,7 +45,7 @@ body, html{
   height: 2em;
   position: absolute;
   display: flex;
-  margin: 49em;
+  margin: 51em;
   margin-left: 25em;
 }
 .sortus-decoration-5 {
@@ -1775,14 +1775,101 @@ margin-top: 145em;
  width: 20em;
 }
 nav {
-  margin: 0 -20em;
+  margin: 0 -18em;
 }
 /*support css code*/
 .main-support {
+  margin: 0;
   width: 35em;
-  margin-top: 15em;
+  margin-top: 26em;
+  font-size: 1em;
+
 }
 .support-aside {
   width: 20em;
+}
+.footer-support {
+  width: 61em;
+  margin-top: 70em;
+}
+.sortus-opening-sentence-support {
+  width: 20em;
+  margin: 2em;
+  margin-top: 13em;
+}
+.sortus-opening-sentence-support-2 {
+  margin: 4em;
+  margin-top: 15em;
+}
+/*Home page CSS*/
+main {
+  margin-top: 28em;
+}
+footer{
+  margin-top: 140em;
+}
+.sortus-decoration-2{
+  margin: 15em;
+  margin-top: 38em;
+} 
+.sortus-title-2 {
+  margin-top: 1.5em;
+}
+.sortus-photo {
+  margin-top: 1.5em;
+}
+.sortus-works {
+  margin-top: 6em;
+}
+.sortus-works-sentence-2 {
+  margin-top: 35em;
+}
+/*About Sortus CSS*/
+.about-sortus-main {
+  margin: 0;
+  margin-top: 22em;
+  height: 20em;
+}
+.about-sortus-opening-sentence {
+  color: rgb(175, 158, 4);
+}
+.sortus-about-statement {
+  margin-top: 6.5em;
+}
+.about-sortus-opening-sentence-2 {
+  color: rgb(175, 158, 4);
+  margin-top: 9em;
+}
+.sortus-about-statement-2 {
+  margin-top: 20em;
+}
+.about-sortus-opening-sentence-3 {
+  color: rgb(175, 158, 4);
+  margin-top: 15.5em;
+}
+.sortus-about-statement-3 {
+  margin-top: 32em;
+}
+.about-sortus-footer {
+  margin-top: 65em;
+}
+.sortus-decoration-2 {
+  margin-left: 20em;
+  z-index: -1;
+}
+.sortus-decoration-3 {
+  margin-top: 35em;
+  margin-left: 30em;
+}
+.sortus-decoration-4 {
+  margin-left: 34em;
+  margin-top: 36em;
+}
+/*Call Center CSS*/
+.sortus-Call-Center {
+  border: 1px solid black;
+  width: 40em;
+  height: 40em;
+  margin-top: 25em;
 }
 }
