@@ -521,356 +521,6 @@ h3 {
         display: flex;
         margin-top: 95em;
       }
-
-
-/*#backgroundimage {
-  background-image: url(technology-2.jpeg);
-  background-size: cover;
-  background-position: center;
-  height: 280px;
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-
-   /*creating CSS glassmorphism
-background: white;
-border-radius: 10px;
-box-shadow:  3px 3px  8px rgb(114, 113, 111),
-            -3px -3px  8px #ffffff;
- -webkit-box-shadow: 3px 3px 8px rgb(114, 113, 111), -3px -3px 8px #ffffff;
-height: 100px;
-width: 280px;
-margin-top: 120px;
-position: absolute;
-float: right;
-left: 350px;
-}
- #notes {
-  color: #1C4582;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  text-align: center;
- } 
- #notes:hover {
-  font-weight: bolder;
- }
- #note:hover {
-  -webkit-box-shadow: inset 4px 4px px rgb(114, 113, 111), inset -6px -6px 10px #ffffff;
-  box-shadow: inset 8px 8px 13px rgb(114, 113, 111), inset -6px -6px 10px #ffffff;
- }
- #vision-notes {
-  position: absolute;
-  float: left;
-  color: #1C4582;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  margin: 100px 30px;
- }
-     /* creating CSS neurmophosm
- #vision {
-
-background: white;
-border-radius: 10px;
-box-shadow:  3px 3px  8px rgb(114, 113, 111),
-            -3px -3px  8px #ffffff;
- -webkit-box-shadow: 3px 3px 8px rgb(114, 113, 111), -3px -3px 8px #ffffff;
-height: 100px;
-width: 280px;
-position: absolute;
-margin: 120px 30px;
- }
- #sortus-vision {
-  color: #1C4582;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  text-align: center;
- }
- #sortus-vision:hover{
-  font-weight: bolder;
- }
- #vision:hover {
-  -webkit-box-shadow: inset 4px 4px 8px rgb(114, 113, 111), inset -6px -6px 10px #ffffff;
-  box-shadow: inset 8px 8px 13px rgb(114, 113, 111), inset -6px -6px 10px #ffffff
- }
- #email-us {
-  color: #1C4582;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 30px;
- }
- #top-services {
-  color: #666666;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  float: left;
-  position: absolute;
-  margin: 280px 30px;
- }
- #data-reselling {
-  display: inline-block;
-  position: absolute;
-  width: 130px;
-  height: 130px;
-  margin: 120px 30px;
-  border-radius: 15px;
- }
- #server{
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  margin: 120px 180px;
-  border-radius: 15px;
- }
- #camera {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  margin: 120px 12px;
-  border-radius: 15px;
- }
- #technology {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  margin: 120px -150px;
-  border-radius: 15px;
- }
- #tech {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  margin: 280px -150px;
-  border-radius: 15px;
- }
- #solar {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  margin: 280px -460px;
-  border-radius: 15px;
- }
- #call-center {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  margin: 280px 12px;
-  border-radius: 15px;
- }
- #cloud {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  margin: 280px -310px;
-  border-radius: 15px;
- }
- #camera:hover, #server:hover, #data-reselling:hover, #technology:hover, #tech:hover, #solar:hover, #call-center:hover, #cloud:hover {
-  opacity: 1;
- -webkit-animation: flash 1.5s;
- animation: flash 1.5s;
-}
-@-webkit-keyframes flash {
- 0% {
-   opacity: .4;
- }
- 100% {
-   opacity: 1;
- }
-}
-@keyframes flash {
- 0% {
-   opacity: .4;
- }
- 100% {
-   opacity: 1;
- }
-}
-#data{
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 235px 70px;
-  font-weight: bold;
-}
-#data:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#server-link{
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 235px -280px;
-  font-weight: bold;
-}
-#server-link:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#camera-link {
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 235px 20px;
-  font-weight: bold;
-}
-#camera-link:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#technology-link{
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 235px -140px;
-  font-weight: bold; 
-}
-#technology-link:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#tech-link {
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 395px -130px;
-  font-weight: bold; 
-}
-#tech-link:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#solar-link {
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 395px -430px;
-  font-weight: bold; 
-}
-#solar-link:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#callCenter-link {
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 395px 30px;
-  font-weight: bold;
-}
-#callCenter-link:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#cloud-link {
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 8px;
-  color: whitesmoke;
-  position: absolute;
-  margin: 395px -290px;
-  font-weight: bold;
-}
-#cloud-link:hover {
-  background-color: #1C4582;
-  color: whitesmoke;
-}
-#footer {
-  background-color: #69be94;
-  height: 150px;
-  margin-top: 80px;
-  position: static;
-}
-#footer-image{
-  margin: -20px 10px;
-  width: 80px;
-  height: 80px;
-  mix-blend-mode: multiply;
-  color: whitesmoke;
-}
-#color-line {
-  background-color: darksalmon;
-  height: 2px;
-  margin-top: 70px;
-}
-#footer-text {
-  margin: 5px 20px;
-  font-size: 10px;
-  font-weight: bold;
-  color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#whatsapp-logo{
-  width: 15px;
-  height: 15px;
-  margin: -8px 20px;
-}
-#company-number{
-  color: whitesmoke;
-  margin: -10px 40px;
-  font-size: 8px;
-  font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#email-link2{
-  width: 15px;
-  height: 15px;
-  margin: -20px 20px;
-}
-#email-link{
-  text-decoration: none;
-  color: whitesmoke;
-  font-size: 8px;
-  font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0px 45px;
-}
-#support{
-  position: absolute;
-  text-decoration: none;
-  color: whitesmoke;
-  font-size: 8px;
-  font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: -32px 200px;
-}
-#support-numbers {
-  position: absolute;
-  text-decoration: none;
-  color: whitesmoke;
-  font-size: 8px;
-  font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: -10px 200px;
-}*/
-
-/*Sortus support CSS*/
-/*.sortus-support-welcome {
-  margin: 5em;
-  position: absolute;
-  display: flex;
-}*/
 footer{
   width: 100%;
   background-color: #13aa5f;
@@ -1316,6 +966,18 @@ input {
   width: 35em;
 }
 @media (min-width: 300px) and (max-width: 480px) {
+  
+  nav a:hover,
+  nav a:focus {
+    background-color: #1C4582;
+    color: whitesmoke;
+
+}
+
+  nav a.active {
+    background-color: #1C4582;
+    color: whitesmoke;
+}
   html, body {
     margin: 0;
     padding: 0;
@@ -1706,6 +1368,18 @@ display: none;
  }
  /*The media querry for the Navigation button*/
 @media (min-width: 300px) and (max-width: 480px) {
+  
+  nav a:hover,
+  nav a:focus {
+    background-color: #1C4582;
+    color: whitesmoke;
+
+}
+
+  nav a.active {
+    background-color: #1C4582;
+    color: whitesmoke;
+}
   body {
     /*background-image: url(frame-1.jpeg);*/
     background-position: cover;
@@ -1759,6 +1433,18 @@ display: none;
 }
 /*media querry for a screen from 481px and less than 768px, ipads and tablets*/
 @media (min-width: 481px) and (max-width: 768px) {
+  
+  nav a:hover,
+  nav a:focus {
+    background-color: #1C4582;
+    color: whitesmoke;
+
+}
+
+  nav a.active {
+    background-color: #1C4582;
+    color: whitesmoke;
+}
   main {
     width: 40em;
     margin-top: 25em;
@@ -1867,9 +1553,171 @@ footer{
 }
 /*Call Center CSS*/
 .sortus-Call-Center {
-  border: 1px solid black;
   width: 40em;
   height: 40em;
   margin-top: 25em;
 }
+}
+/*media querry for a laptop of 1024px*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    margin-left: 13em;
+  }
+  
+  /* Dropdown Button */
+.dropbtn {
+  color: #1C4582;
+  color: whitesmoke;
+  /*padding: 10px;*/
+  font-size: .55em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: none;
+  font-weight: bolder;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  size: 100%;
+}
+
+ /*Dropdown Content (Hidden by Default)*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  width: 12em;
+  z-index: 1;
+  margin-left: -1.5em;
+}
+
+/* Links inside the dropdown*/
+.dropdown-content a {
+  color: #1C4582;
+  padding: 3px 4px;
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+  font-size: .45em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #1C4582;
+  color: whitesmoke;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn:hover .dropbtn:focus
+.dropdown:focus {
+  background-color: #1C4582;
+  color: whitesmoke;
+}
+  nav a:hover,
+  nav a:focus {
+    background-color: #1C4582;
+    color: whitesmoke;
+
+}
+  nav a.active {
+    background-color: #1C4582;
+    color: whitesmoke;
+}
+  /*Call center*/
+  .sortus-Call-Center {
+    margin-top: 30em;
+    width: 40em;
+    height: 40em;
+  }
+  .image-cover {
+    width: 40em;
+  }
+  .sortus-call-center-footer {
+    width: 61.5em;
+    margin-top: 108em;
+  }
+  .sortus-decoration-3 {
+    margin-top: 60em;
+    margin-left: 30em;
+  }
+  .sortus-decoration-4 {
+    margin-top: 61em;
+    margin-left: 34em;
+  }
+  .sortus-decoration-2 {
+    margin-top: 40em;
+  }
+  /*sortus support CSS*/
+  .image-a { display: none}
+  .main-support {
+    margin: 25em;
+    margin-left: 0;
+
+  }
+  .footer-support {
+    width: 65em;
+    margin-top: 70em;
+  }
+  /*sortus HOME tab CSS*/
+  main {
+    width: 40em;
+    margin-top: 30em;
+  }
+  footer {
+   margin-top: 145em;
+   width: 61.5em;
+  }
+  .sortus-opening-sentence {
+    width: 10em;
+  }
+  .sortus-decoration-2 {
+    margin-top: 35em;
+  }
+  /*About Sortus CSS*/
+  .about-sortus-main {
+    width: 35em;
+    margin-left: 0;
+    margin-top: 28em;
+    height: 18em;
+  }
+  .about-sortus-footer {
+    margin-top: 73em;
+  }
+  .sortus-about-statement {
+    margin-top: 7em;
+  }
+  .about-sortus-opening-sentence-2 {
+    margin-top: 9em;
+  }
+  .sortus-about-statement-2 {
+    margin-top: 20em;
+  }
+  .about-sortus-opening-sentence-3 {
+    margin-top: 15em;
+  }
+  .sortus-about-statement-3 {
+   margin-top: 32em;
+  }
+  .sortus-decoration-3 {
+    margin-top: 40em;
+  }
+  .sortus-decoration-4 {
+    margin-top: 41em;
+  }
+  /*web development Sortus CSS code*/
+  .sortus-webdevelopment-main {
+    width: 30em;
+    margin-top: 25em;
+    margin-left: 0;
+  }
+  .webdevelopment-footer {
+    margin-top: 173em;
+  }
 }
