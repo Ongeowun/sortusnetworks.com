@@ -1,3 +1,9 @@
+
+import browser_action from './launch.json' assert { type: json}
+
+console.log(browser_action)
+
+
 let sortuslink =document.getElementsByClassName("sortus-data-reselling")
 
 sortuslink.addEventListener("onclick", function sortusLink(){
